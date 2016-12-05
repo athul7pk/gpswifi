@@ -1,0 +1,790 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	src/examples/Makefile	/^A   = .a$/;"	m
+ACCUMSEC	src/examples/Include/beacon.h	10;"	d
+ADVERT	src/examples/Include/com_inf.h	24;"	d
+ADVERTISE_LEN	src/examples/Include/com_inf.h	/^		ADVERTISE_LEN = 26	 \/\/ From Wise Id to End of pkt$/;"	e	enum:__anon16
+AP	src/config/mode.sh	/^	AP () {$/;"	f
+AR	src/examples/Makefile	/^AR      = ar$/;"	m
+ActivePKT_t	src/examples/App/bridgeApp/scheduler.c	/^}ActivePKT_t;$/;"	t	typeref:struct:__anon4	file:
+AddDataToPostQue	src/examples/App/bridgeApp/scheduler.c	/^void	AddDataToPostQue(char type ,char*data,int sz){$/;"	f
+BAUDRATE	src/examples/system/com_inf.c	33;"	d	file:
+BAUDRATE1	src/examples/system/com_inf.c	34;"	d	file:
+BAUD_115200	src/examples/Include/com_inf.h	/^		BAUD_115200= 1$/;"	e	enum:__anon15
+BAUD_57600	src/examples/Include/com_inf.h	/^		BAUD_57600 = 0, $/;"	e	enum:__anon15
+BEACON_ID_SIZE	src/examples/Include/beacon.h	9;"	d
+BEACON_REQUEST_BATTERY	src/examples/Include/beacon.h	/^	BEACON_REQUEST_BATTERY = 1$/;"	e	enum:__anon11
+BEACON_REQUEST_TAMPER	src/examples/Include/beacon.h	/^	BEACON_REQUEST_TAMPER = 0,$/;"	e	enum:__anon11
+BLE_PKT_LENGTH	src/examples/Include/com_inf.h	12;"	d
+BOARD_t	src/examples/App/updateApp/wiseupdater.c	/^	}BOARD_t;$/;"	t	typeref:enum:__anon2	file:
+BOARD_t	src/examples/Include/update.h	/^}BOARD_t;$/;"	t	typeref:enum:__anon6
+BRIDGE_EXE	src/examples/Makefile	/^BRIDGE_EXE = wisebridge$/;"	m
+BRIDGE_OBJS	src/examples/Makefile	/^BRIDGE_OBJS = .\/middleware\/base64.o .\/App\/bridgeApp\/command_parser.o .\/middleware\/jsmn.o	.\/App\/bridgeApp\/scheduler.o .\/App\/bridgeApp\/cloudinf.o	.\/middleware\/json.o	.\/App\/bridgeApp\/wisebridge.o .\/system\/com_inf.o .\/OTA\/aes.o .\/OTA\/mesh_ota.o .\/system\/network_interface.o .\/middleware\/nvram.o .\/App\/bridgeApp\/beacon.o .\/App\/updateApp\/update.o .\/CSRFW\/csrupdate.o $/;"	m
+BUFSIZE	src/examples/system/network_interface.c	44;"	d	file:
+BYTE_JOIN_16	src/examples/OTA/aes.c	11;"	d	file:
+BYTE_JOIN_16	src/examples/system/com_inf.c	45;"	d	file:
+BeaconData	src/examples/Include/beacon.h	/^}BeaconData;$/;"	t	typeref:struct:__anon8
+BeaconHTTPMessageQueueNode	src/examples/Include/beacon.h	/^}BeaconHTTPMessageQueueNode;$/;"	t	typeref:struct:__anon13
+BeaconHTTPQueueNode	src/examples/Include/beacon.h	/^}BeaconHTTPQueueNode;$/;"	t	typeref:struct:__anon12
+BeaconHTTPRequestType	src/examples/Include/beacon.h	/^}BeaconHTTPRequestType;$/;"	t	typeref:enum:__anon11
+BeaconInfo	src/examples/Include/beacon.h	/^}BeaconInfo;$/;"	t	typeref:struct:__anon7
+BleVersion	src/examples/CSRFW/csrupdate.c	/^int BleVersion = 0x210102 ;$/;"	v
+Bridge_ListenerID	src/examples/App/bridgeApp/beacon.c	/^volatile short int  Bridge_ListenerID;  \/\/ global variable to store Bridge Listener ID Shinaj$/;"	v
+Build	Makefile	/^define Build\/Compile$/;"	m
+Build	Makefile	/^define Build\/Configure$/;"	m
+Build	Makefile	/^define Build\/Prepare$/;"	m
+CC	src/examples/Makefile	/^CC      = gcc$/;"	m
+CFLAGS	src/examples/Makefile	/^CFLAGS  = $(DFLAGS) -DLINUX -Wall -D$(HARDWARE)$/;"	m
+CLEAR_3	src/examples/OTA/aes.c	12;"	d	file:
+CLEAR_4	src/examples/OTA/aes.c	13;"	d	file:
+CLEAR_7	src/examples/OTA/aes.c	3;"	d	file:
+CMDresp_request0	src/examples/App/bridgeApp/cloudinf.c	/^static const char CMDresp_request0[]="[{\\"status\\":";$/;"	v	file:
+CMDresp_request1	src/examples/App/bridgeApp/cloudinf.c	/^static const char CMDresp_request1[]=",\\"requestId\\":";$/;"	v	file:
+CMDresp_requestend	src/examples/App/bridgeApp/cloudinf.c	/^static const char CMDresp_requestend[]="}]";$/;"	v	file:
+COMMAND_BEG_1	src/examples/Include/com_inf.h	18;"	d
+COMMAND_BEG_2	src/examples/Include/com_inf.h	19;"	d
+COMMAND_END_1	src/examples/Include/com_inf.h	20;"	d
+COMMAND_END_2	src/examples/Include/com_inf.h	21;"	d
+COMMAND_SIZE	src/examples/Include/com_inf.h	17;"	d
+COM_INIT_ERR	src/examples/includes.h	103;"	d
+COM_MSG_QUE_CERR	src/examples/includes.h	114;"	d
+COM_READ_ERR	src/examples/includes.h	102;"	d
+COM_WRITE_ERR	src/examples/includes.h	104;"	d
+CONFIG_FILE_PATH	src/examples/middleware/nvram.c	/^const char* CONFIG_FILE_PATH = ".\/.config";$/;"	v
+CONFIG_FILE_PATH	src/examples/middleware/nvram.c	/^const char* CONFIG_FILE_PATH = "\/usr\/bin\/AppData\/WiseBridge\/config";$/;"	v
+CONFIG_FILE_PATH_ENC	src/examples/middleware/nvram.c	/^const char* CONFIG_FILE_PATH_ENC = "\/usr\/bin\/AppData\/WiseBridge\/configENC";$/;"	v
+CONFIG_PATH	src/examples/Include/nvram.h	17;"	d
+CRC_ACKNACK	src/examples/system/com_inf.c	/^char CRC_ACKNACK = 0;$/;"	v
+CSNSR	src/examples/App/bridgeApp/scheduler.c	/^		CSNSR,$/;"	e	enum:__anon3	file:
+CSNSR	src/examples/App/bridgeApp/scheduler.c	/^char CSNSR;$/;"	m	struct:__anon4	file:
+CSREraseEnabled	src/examples/App/bridgeApp/wisebridge.c	/^char CSREraseEnabled=0;$/;"	v
+CSRUpdate	src/examples/App/updateApp/update.c	/^int  CSRUpdate(unsigned char pos){$/;"	f
+CSR_FIRMWAREREQ	src/examples/Include/com_inf.h	83;"	d
+CSR_HEARTBEAT	src/examples/Include/com_inf.h	79;"	d
+CSR_IMAGE	src/examples/CSRFW/ImageToC.c	24;"	d	file:
+CSR_Image_Size	src/examples/App/updateApp/update.c	/^int CSR_Image_Size=0;$/;"	v
+CSR_UPDATE_ACK	src/examples/system/com_inf.c	37;"	d	file:
+CheckAndAddBeacon	src/examples/App/bridgeApp/beacon.c	/^void CheckAndAddBeacon(BeaconData *data, unsigned char tamperState,unsigned char batteryLevel,char rssi,unsigned short seqNo, char motion,unsigned short temp)$/;"	f
+CheckFirmwareUpdate	src/examples/App/updateApp/update.c	/^int CheckFirmwareUpdate(char *otarequest) {$/;"	f
+CleanupJSON	src/examples/middleware/json.c	/^static void CleanupJSON(char* str)$/;"	f	file:
+ConfigBuffCheck	src/examples/middleware/nvram.c	/^int ConfigBuffCheck(char *path)$/;"	f
+ConfigFileCheck	src/examples/middleware/nvram.c	/^int ConfigFileCheck(char *path)$/;"	f
+CustomerId	src/examples/App/bridgeApp/command_parser.c	/^unsigned char CustomerId[14];$/;"	v
+CustomerKey	src/examples/App/bridgeApp/command_parser.c	/^unsigned char CustomerKey[14];$/;"	v
+DEVICE_GATEWAY_DOWN	src/examples/includes.h	112;"	d
+DEVICE_READY	src/examples/includes.h	124;"	d
+DEV_ID_POS	src/examples/Include/com_inf.h	93;"	d
+DEV_ID_POS_IN	src/examples/Include/com_inf.h	94;"	d
+DNS_FAILED	src/examples/Include/network_interface.h	/^	DNS_FAILED,$/;"	e	enum:state
+DNS_RESOLV_ERR	src/examples/includes.h	106;"	d
+DNS_SUCCESS	src/examples/Include/network_interface.h	/^	DNS_SUCCESS,$/;"	e	enum:state
+DYNORGID	src/examples/includes.h	76;"	d
+Data	src/examples/Include/beacon.h	/^	BeaconHTTPQueueNode Data;$/;"	m	struct:__anon13
+DataPacket	src/examples/Include/beacon.h	/^}DataPacket;$/;"	t	typeref:struct:__anon9
+DataPos	src/examples/App/bridgeApp/scheduler.c	/^int QDataPos=0,DataPos=0;$/;"	v
+DebugEnabled	src/examples/App/bridgeApp/wisebridge.c	/^char DebugEnabled=0;$/;"	v
+Defconfig	src/examples/middleware/nvram.c	/^const char Defconfig[]="WI_USER=briemb@tester\\nWI_PASS=d9dc936e38babd740bc5b882629e17985bc4ab4da87c29af83f77c6ece9634fce621ada6e718a3bfa67b5715648d990f4b9db7cd96d976431cef4b0752234aab\\nOperationMode=STA\\nstaWpaPsk=Key4us&food\\nstaAuth=psk2\\nstaSSID=BRIDGE_EMBEDDED\\nHostName=192.168.10.180\\nbaseurl=\/wiseconnect\/public\/\\nversion=v-2.1.8.wise\\nRadiusIP=192.168.10.212\\nRadiusPort=1812\\nis_nurf_enabled=0\\nupdatestate=NONE\\nListenermode=1\\nlistner_id=45\\nmatserv_ip=192.168.10.180\\nmatserv_port=56038\\nrespawn=0\\nKAInterval=30\\nKADuration=65535\\nRestApiToServer=0";$/;"	v
+E	src/examples/Makefile	/^E	=$/;"	m
+ELECTION	src/examples/Include/com_inf.h	85;"	d
+ERROR_APPREQUEST	src/examples/includes.h	119;"	d
+ERROR_APPRESPONSE	src/examples/includes.h	120;"	d
+ERROR_LOGINREQUEST	src/examples/includes.h	121;"	d
+ERROR_LOGINRESPONSE	src/examples/includes.h	122;"	d
+ERROR_SOCKETCONNECT	src/examples/includes.h	126;"	d
+ERROR_SOCKETREAD	src/examples/includes.h	123;"	d
+ERROR_SOCKRW	src/examples/includes.h	127;"	d
+ETH	src/config/mode.sh	/^	ETH () {$/;"	f
+EXIT_FAILURE	src/examples/App/bridgeApp/wisebridge.c	39;"	d	file:
+ErrorLog_enabled	src/examples/App/bridgeApp/wisebridge.c	/^char ErrorLog_enabled = 0;$/;"	v
+EthWifi	src/examples/system/com_inf.c	/^char mac_add1[33],EthWifi = 'S';$/;"	v
+EthWifi	src/examples/system/network_interface.c	/^char EthWifi;$/;"	v
+ExecuteAndGet	src/examples/App/updateApp/update.c	/^void ExecuteAndGet(const char* command, char* output) {$/;"	f
+ExecuteAndGet	src/examples/App/updateApp/wiseupdater.c	/^void ExecuteAndGet(const char* command, char* output) {$/;"	f
+ExitHandler	src/examples/App/bridgeApp/wisebridge.c	/^void ExitHandler()$/;"	f
+FALSE	src/examples/OTA/mesh_ota.c	5;"	d	file:
+FILE_BUFF_SIZE	src/examples/system/com_inf.c	35;"	d	file:
+GEN_THREAD_ERR	src/examples/includes.h	97;"	d
+GET_15	src/examples/OTA/aes.c	8;"	d	file:
+GET_7	src/examples/OTA/aes.c	7;"	d	file:
+GUID	src/examples/Include/com_inf.h	26;"	d
+GetVersion	src/examples/App/updateApp/update.c	/^Version_t GetVersion(const char* FileName, const char* extension) {$/;"	f
+HBCount	src/examples/App/bridgeApp/beacon.c	/^int HBCount = 0;$/;"	v
+HBEAT1	src/examples/Include/com_inf.h	88;"	d
+HBEAT2	src/examples/Include/com_inf.h	89;"	d
+HBeatFlag	src/examples/Include/beacon.h	/^    char HBeatFlag;$/;"	m	struct:__anon10
+HOP_POS	src/examples/OTA/aes.c	6;"	d	file:
+HTTPS_IP	src/examples/system/network_interface.c	/^char HTTPS_IP[64] = { 0x00 };$/;"	v
+HTTPS_PORT	src/examples/system/network_interface.c	36;"	d	file:
+HTTP_GET_APPINFO_ERR	src/examples/includes.h	83;"	d
+HTTP_GET_BATTERY_ERR	src/examples/includes.h	87;"	d
+HTTP_GET_FWINFO_ERR	src/examples/includes.h	90;"	d
+HTTP_GET_HEARTBEAT_ERR	src/examples/includes.h	88;"	d
+HTTP_GET_LOGIN_ERR	src/examples/includes.h	84;"	d
+HTTP_GET_RSSI_ERR	src/examples/includes.h	85;"	d
+HTTP_GET_TAMPER_ERR	src/examples/includes.h	86;"	d
+HTTP_GET_TIMESYNC_ERR	src/examples/includes.h	89;"	d
+HTTP_MSG_QUE_CERR	src/examples/includes.h	113;"	d
+HTTP_PORT	src/examples/system/network_interface.c	34;"	d	file:
+HTTP_SENSOR_POST_ERR	src/examples/includes.h	92;"	d
+HTTP_STATUS_POST_ERR	src/examples/includes.h	91;"	d
+HWCONFIG_FILE_PATH	src/examples/middleware/nvram.c	/^const char* HWCONFIG_FILE_PATH=".\/.configHW";$/;"	v
+HWCONFIG_FILE_PATH	src/examples/middleware/nvram.c	/^const char* HWCONFIG_FILE_PATH="\/usr\/bin\/AppData\/WiseBridge\/configHW";$/;"	v
+HWTEMP_FILE_PATH	src/examples/middleware/nvram.c	/^const char* HWTEMP_FILE_PATH  = ".\/.HWtemptokenfile";$/;"	v
+HWTEMP_FILE_PATH	src/examples/middleware/nvram.c	/^const char* HWTEMP_FILE_PATH  = "\/usr\/bin\/AppData\/WiseBridge\/HWtemptokenfile";$/;"	v
+HWnvram_bufset	src/examples/middleware/nvram.c	/^int HWnvram_bufset(int index, const char *token, const char *value)$/;"	f
+HWnvram_get	src/examples/middleware/nvram.c	/^char *HWnvram_get(int id, const char *token)$/;"	f
+HandleCSRVersion	src/examples/App/updateApp/update.c	/^void HandleCSRVersion(char* csrversion){$/;"	f
+HandleSignals	src/examples/App/bridgeApp/wisebridge.c	/^void HandleSignals()$/;"	f
+Https_Sem	src/examples/system/network_interface.c	/^static volatile int Https_Sem=0;$/;"	v	file:
+INITIAL_PACK	src/examples/Include/update.h	5;"	d
+INVALID_INPUT	src/examples/includes.h	116;"	d
+INVALID_OUTPUT	src/examples/includes.h	117;"	d
+INVALID_SOCKET	src/examples/includes.h	125;"	d
+INVALID_SSLRW	src/examples/includes.h	118;"	d
+IP_ASSIGNED	src/examples/Include/network_interface.h	/^	IP_ASSIGNED,$/;"	e	enum:state
+IP_GET_ERR	src/examples/includes.h	105;"	d
+IP_UNASSIGNED	src/examples/Include/network_interface.h	/^	IP_UNASSIGNED = 100,$/;"	e	enum:state
+ImageSize	src/examples/CSRFW/csrupdate.c	/^int ImageSize = 29946 ;$/;"	v
+InitNURFSocket	src/examples/App/bridgeApp/beacon.c	/^int InitNURFSocket()$/;"	f
+IsNURFEnabled	src/examples/App/bridgeApp/beacon.c	/^int IsNURFEnabled()$/;"	f
+JSMN_ARRAY	src/examples/Include/jsmn.h	/^	JSMN_ARRAY = 2,$/;"	e	enum:__anon19
+JSMN_ERROR_INVAL	src/examples/Include/jsmn.h	/^	JSMN_ERROR_INVAL = -2,$/;"	e	enum:__anon20
+JSMN_ERROR_NOMEM	src/examples/Include/jsmn.h	/^	JSMN_ERROR_NOMEM = -1,$/;"	e	enum:__anon20
+JSMN_ERROR_PART	src/examples/Include/jsmn.h	/^	JSMN_ERROR_PART = -3$/;"	e	enum:__anon20
+JSMN_OBJECT	src/examples/Include/jsmn.h	/^	JSMN_OBJECT = 1,$/;"	e	enum:__anon19
+JSMN_PRIMITIVE	src/examples/Include/jsmn.h	/^	JSMN_PRIMITIVE = 0,$/;"	e	enum:__anon19
+JSMN_STRING	src/examples/Include/jsmn.h	/^	JSMN_STRING = 3$/;"	e	enum:__anon19
+KA_Duration	src/examples/App/bridgeApp/wisebridge.c	/^int KA_Duration=10,KA_Interval=2;$/;"	v
+KA_Interval	src/examples/App/bridgeApp/wisebridge.c	/^int KA_Duration=10,KA_Interval=2;$/;"	v
+KAcount	src/examples/App/bridgeApp/wisebridge.c	/^int KAcount=0;$/;"	v
+KEEPALIVE	src/examples/Include/com_inf.h	23;"	d
+KICKSTART_LEN	src/examples/Include/com_inf.h	/^		KICKSTART_LEN = 18,  \/\/ NW Id - 2B + NW Key - 16B$/;"	e	enum:__anon16
+KIWIMINI_BOARD	src/examples/App/updateApp/wiseupdater.c	/^		KIWIMINI_BOARD,$/;"	e	enum:__anon2	file:
+KIWIMINI_BOARD	src/examples/Include/update.h	/^KIWIMINI_BOARD,$/;"	e	enum:__anon6
+KeepAlvPckt	src/examples/App/bridgeApp/beacon.c	/^char KeepAlvPckt[16] = {0};$/;"	v
+LDFLAGS	src/examples/Makefile	/^LDFLAGS =  -lpthread -lssl -lcrypto $/;"	m
+LINKITNEW_BOARD	src/examples/App/updateApp/wiseupdater.c	/^		LINKITNEW_BOARD,$/;"	e	enum:__anon2	file:
+LINKITNEW_BOARD	src/examples/Include/update.h	/^LINKITNEW_BOARD,$/;"	e	enum:__anon6
+LINKITOLD_BOARD	src/examples/App/updateApp/wiseupdater.c	/^		LINKITOLD_BOARD$/;"	e	enum:__anon2	file:
+LINKITOLD_BOARD	src/examples/Include/update.h	/^LINKITOLD_BOARD$/;"	e	enum:__anon6
+LINK_DOWN	src/examples/Include/network_interface.h	/^	 LINK_DOWN=116,$/;"	e	enum:state
+LISTENER_ID_SIZE	src/examples/Include/beacon.h	8;"	d
+LOGFILESIZE	src/examples/App/bridgeApp/wisebridge.c	35;"	d	file:
+LOGID	src/examples/App/updateApp/update.c	/^int LOGID;$/;"	v
+LOGNOW_FILE_PATH	src/examples/App/bridgeApp/wisebridge.c	/^const char* LOGNOW_FILE_PATH = "\/usr\/bin\/AppData\/WiseBridge\/ErrorlogNow.log";$/;"	v
+LOGNOW_FILE_PATH_NURF	src/examples/App/bridgeApp/wisebridge.c	/^const char* LOGNOW_FILE_PATH_NURF = "\/usr\/bin\/AppData\/WiseBridge\/NURFlogNow.log";$/;"	v
+LOGTHEN_FILE_PATH	src/examples/App/bridgeApp/wisebridge.c	/^const char* LOGTHEN_FILE_PATH  = "\/usr\/bin\/AppData\/WiseBridge\/ErrorlogHistory.log";$/;"	v
+LOGTHEN_FILE_PATH_NURF	src/examples/App/bridgeApp/wisebridge.c	/^const char* LOGTHEN_FILE_PATH_NURF  = "\/usr\/bin\/AppData\/WiseBridge\/NURFlogHistory.log";$/;"	v
+LOG_PRINT	src/examples/includes.h	80;"	d
+LOG_PRINTN	src/examples/includes.h	81;"	d
+LastUpdatedTime	src/examples/App/bridgeApp/scheduler.c	/^struct timeval LastUpdatedTime;$/;"	v	typeref:struct:timeval
+LastUpdatedTimeCompare	src/examples/system/network_interface.c	/^struct timeval LastUpdatedTimeCompare;$/;"	v	typeref:struct:timeval
+Led	src/examples/App/bridgeApp/wisebridge.c	/^void Led(int on ,int off){$/;"	f
+Len	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+ListenerData	src/examples/Include/beacon.h	/^}ListenerData;$/;"	t	typeref:struct:__anon10
+MAXPOSTITEMS	src/examples/App/bridgeApp/scheduler.c	240;"	d	file:
+MAXQ	src/examples/App/bridgeApp/scheduler.c	239;"	d	file:
+MAX_IF_FAILURE_RETRY	src/examples/App/bridgeApp/wisebridge.c	36;"	d	file:
+MAX_IF_FAILURE_RETRY	src/examples/system/network_interface.c	37;"	d	file:
+MAX_LEN_SINGLE_LINE	src/examples/App/bridgeApp/wisebridge.c	37;"	d	file:
+MAX_QUEUED_MSG	src/examples/Include/com_inf.h	95;"	d
+MAX_TAR_FILENAME	src/examples/App/updateApp/update.c	26;"	d	file:
+MODEMDEVICE	src/examples/system/com_inf.c	/^char MODEMDEVICE[13];$/;"	v
+MODEMDEVICE	src/examples/system/com_inf.c	39;"	d	file:
+MQ	src/examples/App/bridgeApp/scheduler.c	/^typedef struct MQ{$/;"	s	file:
+MQ_t	src/examples/App/bridgeApp/scheduler.c	/^}MQ_t;$/;"	t	typeref:struct:MQ	file:
+MY_DEBUG	src/examples/OTA/aes.c	1;"	d	file:
+Major	src/examples/Include/update.h	/^	unsigned int Major;$/;"	m	struct:__anon5
+Minor	src/examples/Include/update.h	/^	unsigned int Minor;$/;"	m	struct:__anon5
+NO_OF_LISTENERS	src/examples/Include/beacon.h	7;"	d
+NURF_SOCKET_ERR	src/examples/includes.h	93;"	d
+NVRAM_H_	src/examples/Include/nvram.h	9;"	d
+NWINF	src/examples/App/bridgeApp/wisebridge.c	42;"	d	file:
+NWINF	src/examples/App/bridgeApp/wisebridge.c	44;"	d	file:
+NWINF	src/examples/system/network_interface.c	39;"	d	file:
+NWINF	src/examples/system/network_interface.c	41;"	d	file:
+NWINF1	src/examples/App/bridgeApp/wisebridge.c	47;"	d	file:
+NWINF1	src/examples/system/network_interface.c	43;"	d	file:
+NoOfTagsInRange	src/examples/Include/beacon.h	/^    char NoOfTagsInRange;$/;"	m	struct:__anon10
+O	src/examples/Makefile	/^O 	= .o$/;"	m
+OPERATION	src/examples/Include/com_inf.h	28;"	d
+OPERATION_BRIDGE	src/examples/includes.h	74;"	d
+OPER_TRACK_BRIDGE	src/examples/includes.h	75;"	d
+OP_PROGRESS	src/examples/Include/network_interface.h	/^	OP_PROGRESS=121,$/;"	e	enum:state
+OTA_HEADER	src/examples/OTA/mesh_ota.c	2;"	d	file:
+OUT	src/examples/CSRFW/ImageToC.c	25;"	d	file:
+OnOff	src/examples/App/bridgeApp/wisebridge.c	/^volatile int OnOff= 0;$/;"	v
+OutCommand	src/examples/App/updateApp/update.c	/^char OutCommand[150];$/;"	v
+PACKET_INVALID	src/examples/Include/com_inf.h	13;"	d
+PACKET_SENSOR	src/examples/Include/com_inf.h	15;"	d
+PACKET_SIZE	src/examples/OTA/mesh_ota.c	3;"	d	file:
+PACKET_STATUS	src/examples/Include/com_inf.h	14;"	d
+PAIRING	src/examples/Include/com_inf.h	86;"	d
+PI_TO_CSR_COMMAND_SIZE	src/examples/Include/com_inf.h	10;"	d
+PKG_NAME	Makefile	/^PKG_NAME:=wisebridge$/;"	m
+PKG_RELEASE	Makefile	/^PKG_RELEASE:=1$/;"	m
+PKG_VERSION	Makefile	/^PKG_VERSION:=$(Version)$/;"	m
+Package	Makefile	/^define Package\/$(PKG_NAME)$/;"	m
+Package	Makefile	/^define Package\/$(PKG_NAME)\/install$/;"	m
+ParseCOMBuffer	src/examples/system/com_inf.c	/^void ParseCOMBuffer() {$/;"	f
+Post	src/examples/App/bridgeApp/scheduler.c	/^pthread_t Post;$/;"	v
+PostItem_t	src/examples/App/bridgeApp/scheduler.c	/^}PostItem_t;$/;"	t	typeref:enum:__anon3	file:
+PostLock	src/examples/App/bridgeApp/scheduler.c	/^pthread_mutex_t PostLock;$/;"	v
+PostToServer	src/examples/App/bridgeApp/scheduler.c	/^void PostToServer(){$/;"	f
+ProcessNewBeaconPktFromCSR	src/examples/App/bridgeApp/beacon.c	/^void ProcessNewBeaconPktFromCSR(unsigned char* COMData)$/;"	f
+ProcessNewListenerPktFromCSR	src/examples/App/bridgeApp/beacon.c	/^void ProcessNewListenerPktFromCSR(unsigned char* COMData)$/;"	f
+ProcessNewMotherTagPktFromCSR	src/examples/App/bridgeApp/beacon.c	/^void	ProcessNewMotherTagPktFromCSR(unsigned char*data){$/;"	f
+PushData	src/examples/App/bridgeApp/beacon.c	/^void PushData(DataPacket* data)$/;"	f
+QDataPos	src/examples/App/bridgeApp/scheduler.c	/^int QDataPos=0,DataPos=0;$/;"	v
+RANLIB	src/examples/Makefile	/^RANLIB  = ranlib$/;"	m
+RCVBUFFLEN	src/examples/Include/beacon.h	6;"	d
+RECOVER	src/config/mode.sh	/^	RECOVER(){$/;"	f
+RESERVED_ERR	src/examples/includes.h	101;"	d
+RESTART	src/examples/Include/com_inf.h	22;"	d
+RT2860_NVRAM	src/examples/Include/nvram.h	15;"	d
+Rcon	src/examples/OTA/aes.c	/^const unsigned char Rcon[11] = {$/;"	v
+Reconnect	src/examples/system/network_interface.c	/^void Reconnect(){$/;"	f
+ReminderBytes	src/examples/App/updateApp/update.c	/^int ReminderBytes=0;$/;"	v
+RemoveBackSlah	src/examples/middleware/base64.c	/^void RemoveBackSlah(char* s)$/;"	f
+Retry_Count	src/examples/system/network_interface.c	/^char  Retry_Count=0;$/;"	v
+SCH_MSG_QUE_CERR	src/examples/includes.h	98;"	d
+SCH_MSG_QUE_RERR	src/examples/includes.h	99;"	d
+SCH_MSG_QUE_WERR	src/examples/includes.h	100;"	d
+SENSOR_DATA_POS	src/examples/Include/com_inf.h	91;"	d
+SENSOR_ID_POS	src/examples/Include/com_inf.h	90;"	d
+SET_15	src/examples/OTA/aes.c	5;"	d	file:
+SET_7	src/examples/OTA/aes.c	4;"	d	file:
+SET_STAT_ADV_INTERVAL	src/examples/Include/com_inf.h	80;"	d
+SIZE_OF_REQBUFFER	src/examples/App/bridgeApp/cloudinf.c	122;"	d	file:
+SNSR	src/examples/App/bridgeApp/scheduler.c	/^		SNSR,$/;"	e	enum:__anon3	file:
+SNSR	src/examples/App/bridgeApp/scheduler.c	/^char SNSR;$/;"	m	struct:__anon4	file:
+SO	src/examples/Makefile	/^SO  = .so$/;"	m
+SOCKET_ERR	src/examples/includes.h	94;"	d
+SOCK_PORT	src/examples/system/network_interface.c	/^unsigned char SOCK_PORT[8];$/;"	v
+SSL_CONNECT_FAILED	src/examples/Include/network_interface.h	/^	SSL_CONNECT_FAILED,$/;"	e	enum:state
+SSL_CONNECT_SUCCESS	src/examples/Include/network_interface.h	/^	SSL_CONNECT_SUCCESS,$/;"	e	enum:state
+SSL_INIT_ERR	src/examples/includes.h	95;"	d
+SSL_INIT_FAILED	src/examples/Include/network_interface.h	/^	SSL_INIT_FAILED,$/;"	e	enum:state
+SSL_INIT_SUCCESS	src/examples/Include/network_interface.h	/^	SSL_INIT_SUCCESS,$/;"	e	enum:state
+SSL_SOCKET_CONNECT_ERR	src/examples/includes.h	96;"	d
+STA	src/config/mode.sh	/^	STA () {$/;"	f
+START	src/examples/Include/com_inf.h	27;"	d
+START_BYTE	src/examples/OTA/aes.c	2;"	d	file:
+STATUS	src/examples/Include/com_inf.h	75;"	d
+STATUS_DATA_POS	src/examples/Include/com_inf.h	92;"	d
+STRIP	src/examples/Makefile	/^STRIP   = strip$/;"	m
+STS	src/examples/App/bridgeApp/scheduler.c	/^		STS,$/;"	e	enum:__anon3	file:
+STS	src/examples/App/bridgeApp/scheduler.c	/^char STS;$/;"	m	struct:__anon4	file:
+SecLayerInit	src/examples/system/network_interface.c	/^void SecLayerInit(){$/;"	f
+SecureLayerConnect	src/examples/system/network_interface.c	/^int SecureLayerConnect(char*host,int port){$/;"	f
+SetInterval	src/examples/App/bridgeApp/wisebridge.c	/^int SetInterval=0;$/;"	v
+ShiftLeft	src/examples/system/com_inf.c	/^void ShiftLeft(int index, int max) {$/;"	f
+SignalHandler	src/examples/App/bridgeApp/wisebridge.c	/^void SignalHandler(int signal)$/;"	f
+StartedConnectAdv	src/examples/App/bridgeApp/wisebridge.c	/^char StartedConnectAdv=0;$/;"	v
+Status_arrived	src/examples/system/network_interface.c	/^char Status_arrived=0;$/;"	v
+Sub	src/examples/Include/update.h	/^	unsigned int Sub;$/;"	m	struct:__anon5
+TEMP_DECRYPT_FILE_PATH	src/examples/middleware/nvram.c	/^const char* TEMP_DECRYPT_FILE_PATH  = "\/tmp\/decrypt";$/;"	v
+TEMP_FILE_PATH	src/examples/middleware/nvram.c	/^const char* TEMP_FILE_PATH  = ".\/.temp";$/;"	v
+TEMP_FILE_PATH	src/examples/middleware/nvram.c	/^const char* TEMP_FILE_PATH  = "\/tmp\/config";$/;"	v
+TPPACKET_SENSOR	src/examples/Include/com_inf.h	16;"	d
+TPSNSR	src/examples/App/bridgeApp/scheduler.c	/^		TPSNSR,$/;"	e	enum:__anon3	file:
+TPSNSR	src/examples/App/bridgeApp/scheduler.c	/^char TPSNSR;$/;"	m	struct:__anon4	file:
+TRACKING_BRIDGE	src/examples/includes.h	73;"	d
+TRUE	src/examples/OTA/mesh_ota.c	4;"	d	file:
+TRUSTED_CSR_IMAGE	src/examples/includes.h	72;"	d
+ThreadFlag_BTOSERV	src/examples/App/bridgeApp/wisebridge.c	/^volatile char ThreadFlag_BTOSERV = 0,ThreadFlag_NWLIST = 0,ThreadFlag_NWERR=0 ,ThreadFlag_LED=0,ThreadFlag_COM=0,ThreadFlag_SCH=0,ThreadFlag_POSTOSERVR = 0;$/;"	v
+ThreadFlag_COM	src/examples/App/bridgeApp/wisebridge.c	/^volatile char ThreadFlag_BTOSERV = 0,ThreadFlag_NWLIST = 0,ThreadFlag_NWERR=0 ,ThreadFlag_LED=0,ThreadFlag_COM=0,ThreadFlag_SCH=0,ThreadFlag_POSTOSERVR = 0;$/;"	v
+ThreadFlag_LED	src/examples/App/bridgeApp/wisebridge.c	/^volatile char ThreadFlag_BTOSERV = 0,ThreadFlag_NWLIST = 0,ThreadFlag_NWERR=0 ,ThreadFlag_LED=0,ThreadFlag_COM=0,ThreadFlag_SCH=0,ThreadFlag_POSTOSERVR = 0;$/;"	v
+ThreadFlag_NWERR	src/examples/App/bridgeApp/wisebridge.c	/^volatile char ThreadFlag_BTOSERV = 0,ThreadFlag_NWLIST = 0,ThreadFlag_NWERR=0 ,ThreadFlag_LED=0,ThreadFlag_COM=0,ThreadFlag_SCH=0,ThreadFlag_POSTOSERVR = 0;$/;"	v
+ThreadFlag_NWLIST	src/examples/App/bridgeApp/wisebridge.c	/^volatile char ThreadFlag_BTOSERV = 0,ThreadFlag_NWLIST = 0,ThreadFlag_NWERR=0 ,ThreadFlag_LED=0,ThreadFlag_COM=0,ThreadFlag_SCH=0,ThreadFlag_POSTOSERVR = 0;$/;"	v
+ThreadFlag_POSTOSERVR	src/examples/App/bridgeApp/wisebridge.c	/^volatile char ThreadFlag_BTOSERV = 0,ThreadFlag_NWLIST = 0,ThreadFlag_NWERR=0 ,ThreadFlag_LED=0,ThreadFlag_COM=0,ThreadFlag_SCH=0,ThreadFlag_POSTOSERVR = 0;$/;"	v
+ThreadFlag_SCH	src/examples/App/bridgeApp/wisebridge.c	/^volatile char ThreadFlag_BTOSERV = 0,ThreadFlag_NWLIST = 0,ThreadFlag_NWERR=0 ,ThreadFlag_LED=0,ThreadFlag_COM=0,ThreadFlag_SCH=0,ThreadFlag_POSTOSERVR = 0;$/;"	v
+Thread_CONTROL	src/examples/App/bridgeApp/wisebridge.c	/^volatile int Thread_CONTROL=0;$/;"	v
+Total_Chunks	src/examples/App/updateApp/update.c	/^int Total_Chunks=0;$/;"	v
+Transferred_Chunks	src/examples/App/updateApp/update.c	/^int Transferred_Chunks=0;$/;"	v
+Type	src/examples/App/bridgeApp/scheduler.c	/^		unsigned char Type;$/;"	m	struct:MQ	file:
+UART_BAUD	src/examples/Include/com_inf.h	/^} UART_BAUD;$/;"	t	typeref:enum:__anon15
+UART_BUFFER_SIZE	src/examples/Include/com_inf.h	9;"	d
+UART_BUFFER_SIZE	src/examples/system/com_inf.c	36;"	d	file:
+UART_COMMAND	src/examples/Include/com_inf.h	/^} UART_COMMAND;$/;"	t	typeref:enum:__anon17
+UART_COMMAND_ADVERTISE	src/examples/Include/com_inf.h	/^	UART_COMMAND_KICKSTART = '#', UART_COMMAND_ADVERTISE = '1',UART_COMMAND_CSR_UPDATE='3', UART_COMMAND_CSR_ID = '5', UART_COMMAND_CSR_ACK = '@', UART_COMMAND_CSR_NACK = '$'$/;"	e	enum:__anon17
+UART_COMMAND_CSR_ACK	src/examples/Include/com_inf.h	/^	UART_COMMAND_KICKSTART = '#', UART_COMMAND_ADVERTISE = '1',UART_COMMAND_CSR_UPDATE='3', UART_COMMAND_CSR_ID = '5', UART_COMMAND_CSR_ACK = '@', UART_COMMAND_CSR_NACK = '$'$/;"	e	enum:__anon17
+UART_COMMAND_CSR_ID	src/examples/Include/com_inf.h	/^	UART_COMMAND_KICKSTART = '#', UART_COMMAND_ADVERTISE = '1',UART_COMMAND_CSR_UPDATE='3', UART_COMMAND_CSR_ID = '5', UART_COMMAND_CSR_ACK = '@', UART_COMMAND_CSR_NACK = '$'$/;"	e	enum:__anon17
+UART_COMMAND_CSR_NACK	src/examples/Include/com_inf.h	/^	UART_COMMAND_KICKSTART = '#', UART_COMMAND_ADVERTISE = '1',UART_COMMAND_CSR_UPDATE='3', UART_COMMAND_CSR_ID = '5', UART_COMMAND_CSR_ACK = '@', UART_COMMAND_CSR_NACK = '$'$/;"	e	enum:__anon17
+UART_COMMAND_CSR_UPDATE	src/examples/Include/com_inf.h	/^	UART_COMMAND_KICKSTART = '#', UART_COMMAND_ADVERTISE = '1',UART_COMMAND_CSR_UPDATE='3', UART_COMMAND_CSR_ID = '5', UART_COMMAND_CSR_ACK = '@', UART_COMMAND_CSR_NACK = '$'$/;"	e	enum:__anon17
+UART_COMMAND_KICKSTART	src/examples/Include/com_inf.h	/^	UART_COMMAND_KICKSTART = '#', UART_COMMAND_ADVERTISE = '1',UART_COMMAND_CSR_UPDATE='3', UART_COMMAND_CSR_ID = '5', UART_COMMAND_CSR_ACK = '@', UART_COMMAND_CSR_NACK = '$'$/;"	e	enum:__anon17
+UART_COMMAND_LENGTH	src/examples/Include/com_inf.h	/^} UART_COMMAND_LENGTH;$/;"	t	typeref:enum:__anon16
+UPDATE_EXE	src/examples/Makefile	/^UPDATE_EXE = wiseupdater$/;"	m
+UPDATE_OBJS	src/examples/Makefile	/^UPDATE_OBJS = .\/App\/updateApp\/wiseupdater.o$/;"	m
+UPGRADE	src/config/mode.sh	/^	UPGRADE(){$/;"	f
+USE_COM_MSG_QUEUE	src/examples/Include/com_inf.h	8;"	d
+Updation_in_Progress	src/examples/App/bridgeApp/wisebridge.c	/^int Updation_in_Progress=0;$/;"	v
+VERSION	src/examples/Include/com_inf.h	25;"	d
+Version_t	src/examples/Include/update.h	/^}Version_t;$/;"	t	typeref:struct:__anon5
+WISEBRIDGE_H_	src/examples/Include/wisebridge.h	9;"	d
+WISEMESH_BEACON	src/examples/Include/com_inf.h	76;"	d
+WISEMESH_LISTENER	src/examples/Include/com_inf.h	77;"	d
+WISE_BEACON_H	src/examples/Include/beacon.h	2;"	d
+WISE_BLE_CONF_BRGTYPE	src/examples/Include/com_inf.h	64;"	d
+WISE_BLE_CONF_BRGTYPE_ENC_DKEY	src/examples/Include/com_inf.h	65;"	d
+WISE_BLE_CONF_BRGTYPE_ENC_NKEY	src/examples/Include/com_inf.h	66;"	d
+WISE_BLE_CONF_LISTNERID	src/examples/Include/com_inf.h	68;"	d
+WISE_BLE_CONF_PASSKEY	src/examples/Include/com_inf.h	56;"	d
+WISE_BLE_CONF_PASSKEY_ENC_DKEY	src/examples/Include/com_inf.h	57;"	d
+WISE_BLE_CONF_PASSKEY_ENC_NKEY	src/examples/Include/com_inf.h	58;"	d
+WISE_BLE_CONF_PATH	src/examples/Include/com_inf.h	36;"	d
+WISE_BLE_CONF_PATH_ENC_DKEY	src/examples/Include/com_inf.h	37;"	d
+WISE_BLE_CONF_PATH_ENC_NKEY	src/examples/Include/com_inf.h	38;"	d
+WISE_BLE_CONF_PWD	src/examples/Include/com_inf.h	44;"	d
+WISE_BLE_CONF_PWD_ENC_DKEY	src/examples/Include/com_inf.h	45;"	d
+WISE_BLE_CONF_PWD_ENC_NKEY	src/examples/Include/com_inf.h	46;"	d
+WISE_BLE_CONF_SSID	src/examples/Include/com_inf.h	48;"	d
+WISE_BLE_CONF_SSID_ENC_DKEY	src/examples/Include/com_inf.h	49;"	d
+WISE_BLE_CONF_SSID_ENC_NKEY	src/examples/Include/com_inf.h	50;"	d
+WISE_BLE_CONF_SSL	src/examples/Include/com_inf.h	60;"	d
+WISE_BLE_CONF_SSLY_ENC_DKEY	src/examples/Include/com_inf.h	61;"	d
+WISE_BLE_CONF_SSLY_ENC_NKEY	src/examples/Include/com_inf.h	62;"	d
+WISE_BLE_CONF_URL	src/examples/Include/com_inf.h	32;"	d
+WISE_BLE_CONF_URL_ENC_DKEY	src/examples/Include/com_inf.h	33;"	d
+WISE_BLE_CONF_URL_ENC_NKEY	src/examples/Include/com_inf.h	34;"	d
+WISE_BLE_CONF_USER	src/examples/Include/com_inf.h	40;"	d
+WISE_BLE_CONF_USER_ENC_DKEY	src/examples/Include/com_inf.h	41;"	d
+WISE_BLE_CONF_USER_ENC_NKEY	src/examples/Include/com_inf.h	42;"	d
+WISE_BLE_DATA_COMPLEATE	src/examples/Include/com_inf.h	69;"	d
+WISE_BLE_DATA_START	src/examples/Include/com_inf.h	70;"	d
+WISE_COMMAND_AUTH	src/examples/Include/com_inf.h	52;"	d
+WISE_COMMAND_AUTH_ENC_DKEY	src/examples/Include/com_inf.h	53;"	d
+WISE_COMMAND_AUTH_ENC_NKEY	src/examples/Include/com_inf.h	54;"	d
+WISE_COMMAND_BATTERY	src/examples/Include/com_inf.h	82;"	d
+WISE_COMMAND_CSRVERSION	src/examples/Include/com_inf.h	29;"	d
+WISE_COMMAND_CSR_UPDATE_REQ	src/examples/Include/com_inf.h	30;"	d
+WISE_COMMAND_GUID	src/examples/Include/com_inf.h	31;"	d
+WISE_COMMAND_PASSWORD	src/examples/Include/com_inf.h	74;"	d
+WISE_COMMAND_SSID	src/examples/Include/com_inf.h	73;"	d
+WISE_COMMAND_TAMPER	src/examples/Include/com_inf.h	81;"	d
+WISE_INTERNET_DOWN	src/examples/includes.h	111;"	d
+WISE_MOTHER_TAG	src/examples/Include/com_inf.h	78;"	d
+WISE_SERVER_DOWN	src/examples/includes.h	107;"	d
+WISE_SERVER_HTTP_DOWN	src/examples/includes.h	109;"	d
+WISE_SERVER_SSH_DOWN	src/examples/includes.h	110;"	d
+WISE_SERVER_SSL_DOWN	src/examples/includes.h	108;"	d
+WISE_THIRD_PARTY_SENSOR	src/examples/Include/com_inf.h	72;"	d
+WORD_LSB	src/examples/OTA/aes.c	10;"	d	file:
+WORD_LSB	src/examples/system/com_inf.c	44;"	d	file:
+WORD_MSB	src/examples/OTA/aes.c	9;"	d	file:
+WORD_MSB	src/examples/system/com_inf.c	43;"	d	file:
+WriteBeaconLog	src/examples/App/bridgeApp/beacon.c	/^void WriteBeaconLog(int requestTimestamp, int contentLength, int responseTimestamp)$/;"	f
+__BASE64_H_	src/examples/Include/base64.h	2;"	d
+__COMMUNICATION_H_	src/examples/Include/communication.h	9;"	d
+__INCLUDE_H_	src/examples/includes.h	9;"	d
+__JSMN_H_	src/examples/Include/jsmn.h	2;"	d
+__SCHEDULER_H_	src/examples/Include/scheduler.h	9;"	d
+__UPDATE_H__	src/examples/Include/update.h	3;"	d
+accum_buffer	src/examples/system/com_inf.c	/^static unsigned char accum_buffer[COMMAND_SIZE];$/;"	v	file:
+addHeartBeat	src/examples/App/bridgeApp/beacon.c	/^void addHeartBeat(short int src_id,char brdg_presen_flag, char tags_inrange, char type)$/;"	f
+addr	src/examples/system/network_interface.c	/^		struct sockaddr_in addr;$/;"	v	typeref:struct:sockaddr_in
+addrKA	src/examples/system/network_interface.c	/^struct in_addr	addrKA;$/;"	v	typeref:struct:in_addr
+addr_list	src/examples/system/network_interface.c	/^		struct in_addr *addr_list;$/;"	v	typeref:struct:in_addr
+advt_val	src/examples/system/network_interface.c	/^int advt_val;$/;"	v
+aes_decr	src/examples/OTA/aes.c	/^void aes_decr(unsigned char *state, unsigned char *expandedKey)$/;"	f
+aes_decrypt	src/examples/OTA/aes.c	/^void aes_decrypt(unsigned char *state,$/;"	f
+aes_encr	src/examples/OTA/aes.c	/^void aes_encr(unsigned char *state, unsigned char *expandedKey)$/;"	f
+aes_encrypt	src/examples/OTA/aes.c	/^void aes_encrypt(unsigned char *state, unsigned char *key)$/;"	f
+app_info_1	src/examples/App/bridgeApp/cloudinf.c	/^static const char app_info_1[] = "{\\"deviceId\\":\\"";$/;"	v	file:
+app_info_2	src/examples/App/bridgeApp/wisebridge.c	/^char app_info_2[140];\/\/\/\/\/cloudinf.c$/;"	v
+appid	src/examples/App/bridgeApp/wisebridge.c	/^char appid[10];$/;"	v
+appinfo_guid	src/examples/system/com_inf.c	/^unsigned char appinfo_guid[17];$/;"	v
+appinfo_request	src/examples/App/bridgeApp/cloudinf.c	/^char *appinfo_request(char *devid) {$/;"	f
+appinfo_response_parser	src/examples/App/bridgeApp/command_parser.c	/^int appinfo_response_parser(unsigned char *buf, unsigned char* scratch,$/;"	f
+ascii_to_hex	src/examples/OTA/mesh_ota.c	/^int ascii_to_hex(char c)$/;"	f
+base64_decode	src/examples/middleware/base64.c	/^unsigned char *base64_decode(const char *data,$/;"	f
+base64_encode	src/examples/middleware/base64.c	/^unsigned char *base64_encode(const unsigned char *data,$/;"	f
+batteryLevel	src/examples/Include/beacon.h	/^	unsigned short batteryLevel;$/;"	m	struct:__anon9
+batteryLevel	src/examples/Include/beacon.h	/^    	unsigned short batteryLevel;$/;"	m	struct:__anon7
+batteryLevel	src/examples/Include/beacon.h	/^    unsigned short batteryLevel;$/;"	m	struct:__anon8
+baud	src/examples/App/bridgeApp/wisebridge.c	/^char baud[10];$/;"	v
+baud_select	src/examples/App/bridgeApp/wisebridge.c	/^char baud_select = 0;$/;"	v
+beaconID	src/examples/Include/beacon.h	/^	unsigned char beaconID[BEACON_ID_SIZE];$/;"	m	struct:__anon9
+beaconID	src/examples/Include/beacon.h	/^    unsigned char beaconID[BEACON_ID_SIZE];$/;"	m	struct:__anon8
+beaconInfo	src/examples/Include/beacon.h	/^    BeaconInfo beaconInfo[ACCUMSEC];$/;"	m	struct:__anon8
+blePktCapture	src/examples/system/com_inf.c	/^void blePktCapture(unsigned char* buffer)$/;"	f
+bridgeCMDresp_request	src/examples/App/bridgeApp/cloudinf.c	/^char *bridgeCMDresp_request(char *token, char *phone_id, char *req_id, char *status) {$/;"	f
+bridgePresence	src/examples/Include/beacon.h	/^    char bridgePresence;$/;"	m	struct:__anon10
+buf	src/examples/middleware/nvram.c	/^char buf[512],ch;$/;"	v
+bytes	src/examples/system/com_inf.c	/^unsigned int bytes = 0;$/;"	v
+ch	src/examples/middleware/nvram.c	/^char buf[512],ch;$/;"	v
+ch1	src/examples/middleware/nvram.c	/^char str[512],ch1;$/;"	v
+check_cert	src/examples/system/network_interface.c	/^void check_cert(ssl,host)$/;"	f
+chunk	src/examples/OTA/mesh_ota.c	/^unsigned char chunk[8] = { 0 };$/;"	v
+clientSocket	src/examples/App/bridgeApp/beacon.c	/^int clientSocket;$/;"	v
+cloud_inf_init	src/examples/system/network_interface.c	/^int cloud_inf_init(int type, char *server_ip, struct sockaddr_in *serveraddr,$/;"	f
+cloudaddr	src/examples/system/network_interface.c	/^struct sockaddr_in cloudaddr;$/;"	v	typeref:struct:sockaddr_in
+cloudinfo	src/examples/App/bridgeApp/wisebridge.c	/^void cloudinfo()$/;"	f
+com_buffer	src/examples/system/com_inf.c	/^unsigned char com_buffer[] = "{*012345678901234567890123456789012*}";$/;"	v
+com_buffer1	src/examples/App/bridgeApp/wisebridge.c	/^unsigned char com_buffer1[] = "{*012345678901234567890123456789012*}";$/;"	v
+com_parse	src/examples/system/com_inf.c	/^void com_parse(unsigned char* buffer) {$/;"	f
+com_queue_id	src/examples/system/com_inf.c	/^int com_queue_id;$/;"	v
+com_reader_task	src/examples/system/com_inf.c	/^void com_reader_task(void* arg) {$/;"	f
+com_reader_task	src/examples/system/com_inf.c	/^void* com_reader_task(void* arg) {$/;"	f
+com_validate	src/examples/system/com_inf.c	/^unsigned char com_validate(unsigned char* buffer) {$/;"	f
+com_writer_task	src/examples/system/com_inf.c	/^void com_writer_task() {$/;"	f
+comkey	src/examples/system/com_inf.c	/^key_t comkey = 1232;$/;"	v
+comm_buf	src/examples/system/com_inf.c	/^static unsigned char comm_buf[UART_BUFFER_SIZE];$/;"	v	file:
+command	src/examples/App/updateApp/wiseupdater.c	/^char command[180];$/;"	v
+commandBuf	src/examples/App/updateApp/update.c	/^char commandBuf[150];$/;"	v
+command_request	src/examples/App/bridgeApp/cloudinf.c	/^char *command_request(char* token, char* message_id, char* phone_id) {$/;"	f
+comport	src/examples/App/bridgeApp/wisebridge.c	/^char portno[4],comport[5];$/;"	v
+conff	src/examples/system/network_interface.c	/^		static int conff = 0;$/;"	v	file:
+config	src/examples/middleware/nvram.c	/^char config[1000]="WI_USER=briemb@tester\\nWI_PASS=d9dc936e38babd740bc5b882629e17985bc4ab4da87c29af83f77c6ece9634fce621ada6e718a3bfa67b5715648d990f4b9db7cd96d976431cef4b0752234aab\\nOperationMode=STA\\nstaWpaPsk=Key4us&food\\nstaAuth=psk2\\nstaSSID=BRIDGE_EMBEDDED\\nHostName=192.168.10.180\\nbaseurl=\/wiseconnect\/public\/\\nversion=v-2.1.8.wise\\nRadiusIP=192.168.10.212\\nRadiusPort=1812\\nis_nurf_enabled=0\\nupdatestate=NONE\\nListenermode=1\\nlistner_id=45\\nmatserv_ip=192.168.10.180\\nmatserv_port=56038\\nrespawn=0\\nKAInterval=30\\nKADuration=65535\\nRestApiToServer=0";$/;"	v
+config_get	src/examples/middleware/nvram.c	/^char *config_get(char *path, const char *token)$/;"	f
+config_retain	src/examples/App/bridgeApp/wisebridge.c	/^void config_retain()$/;"	f
+configbuff_get	src/examples/middleware/nvram.c	/^char *configbuff_get(char *config, const char *token)$/;"	f
+confval1	src/examples/middleware/nvram.c	/^const char confval1[]="WI_USER";$/;"	v
+confval10	src/examples/middleware/nvram.c	/^const char confval10[]="RadiusIP";$/;"	v
+confval11	src/examples/middleware/nvram.c	/^const char confval11[]="RadiusPort";$/;"	v
+confval12	src/examples/middleware/nvram.c	/^const char confval12[]="is_nurf_enabled";$/;"	v
+confval13	src/examples/middleware/nvram.c	/^const char confval13[]="updatestate";$/;"	v
+confval14	src/examples/middleware/nvram.c	/^const char confval14[]="Listenermode";$/;"	v
+confval15	src/examples/middleware/nvram.c	/^const char confval15[]="listner_id";$/;"	v
+confval16	src/examples/middleware/nvram.c	/^const char confval16[]="matserv_ip";$/;"	v
+confval17	src/examples/middleware/nvram.c	/^const char confval17[]="matserv_port";$/;"	v
+confval18	src/examples/middleware/nvram.c	/^const char confval18[]="respawn";$/;"	v
+confval19	src/examples/middleware/nvram.c	/^const char confval19[]="KAInterval";$/;"	v
+confval2	src/examples/middleware/nvram.c	/^const char confval2[]="WI_PASS";	$/;"	v
+confval20	src/examples/middleware/nvram.c	/^const char confval20[]="KADuration";$/;"	v
+confval21	src/examples/middleware/nvram.c	/^const char confval21[]="RestApiToServer";$/;"	v
+confval3	src/examples/middleware/nvram.c	/^const char confval3[]="OperationMode";$/;"	v
+confval4	src/examples/middleware/nvram.c	/^const char confval4[]="staWpaPsk";$/;"	v
+confval5	src/examples/middleware/nvram.c	/^const char confval5[]="staAuth";$/;"	v
+confval6	src/examples/middleware/nvram.c	/^const char confval6[]="staSSID";$/;"	v
+confval7	src/examples/middleware/nvram.c	/^const char confval7[]="HostName";$/;"	v
+confval8	src/examples/middleware/nvram.c	/^const char confval8[]="baseurl";$/;"	v
+confval9	src/examples/middleware/nvram.c	/^const char confval9[]="version";$/;"	v
+conn	src/examples/App/bridgeApp/scheduler.c	/^void* conn;$/;"	v
+conn	src/examples/App/bridgeApp/wisebridge.c	/^int *conn; \/\/Temp global$/;"	v
+crc	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+crc16_ccitt	src/examples/system/com_inf.c	/^unsigned short crc16_ccitt(\/*unsigned*\/char *buf, int len)$/;"	f
+crc16tab	src/examples/OTA/aes.c	/^static const unsigned short crc16tab[256]= $/;"	v	file:
+crc16tab	src/examples/system/com_inf.c	/^static const unsigned short crc16tab[256]= $/;"	v	file:
+crc_1	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+csrimage	src/examples/CSRFW/csrupdate.c	/^short int csrimage[]={ 0x9D7C,0x0600,0x0F15,0x0036,0x9F84,0x0096,0x37DF,0x00CC,0x2008,0x6262,0x9E31,$/;"	v
+csrkey	src/examples/App/bridgeApp/wisebridge.c	/^unsigned char csrkey[31],read_guid[31];$/;"	v
+current_application_data	src/examples/OTA/mesh_ota.c	/^unsigned char current_application_data[8] = { 0 };$/;"	v
+custom_sensor_post	src/examples/App/bridgeApp/cloudinf.c	/^char *custom_sensor_post(char *token, char *sensor_data,$/;"	f
+custom_sensor_postAA	src/examples/App/bridgeApp/cloudinf.c	/^char *custom_sensor_postAA(char *token, char *sensor_data, char* phone_id) {$/;"	f
+data	src/examples/App/bridgeApp/scheduler.c	/^		unsigned char data[40];$/;"	m	struct:MQ	file:
+data	src/examples/Include/beacon.h	/^	unsigned char data[32];$/;"	m	struct:__anon12
+data	src/examples/Include/com_inf.h	/^unsigned 	char data[BLE_PKT_LENGTH];$/;"	m	struct:__anon14
+data	src/examples/system/network_interface.c	/^		char data[26];$/;"	m	struct:__anon1	file:
+data_status	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+decoding_table	src/examples/middleware/base64.c	/^static const char decoding_table[256]={ 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,$/;"	v	file:
+decrypt	src/examples/middleware/nvram.c	/^int decrypt(char* filepath)$/;"	f
+device_id	src/examples/OTA/mesh_ota.c	/^short int device_nwid, device_id;$/;"	v
+device_nwid	src/examples/OTA/mesh_ota.c	/^short int device_nwid, device_id;$/;"	v
+deviceota_inprogress	src/examples/OTA/mesh_ota.c	/^int ota_received_flag = 0, deviceota_inprogress = 0, start_deviceota = 0;$/;"	v
+deviceota_task	src/examples/OTA/mesh_ota.c	/^void deviceota_task() {$/;"	f
+deviceotathread	src/examples/App/updateApp/update.c	/^pthread_t deviceotathread;$/;"	v
+devtype	src/examples/App/bridgeApp/wisebridge.c	/^char hwtype[10],devtype[10],errorlog[10];$/;"	v
+dynorg	src/examples/App/bridgeApp/wisebridge.c	/^char dynorg[2];$/;"	v
+dynorgid	src/examples/App/bridgeApp/wisebridge.c	/^char dynorgid;$/;"	v
+enable_csr	src/examples/App/updateApp/update.c	/^int enable_csr,enable_telink;$/;"	v
+enable_telink	src/examples/App/updateApp/update.c	/^int enable_csr,enable_telink;$/;"	v
+encoding_table	src/examples/middleware/base64.c	/^static const char encoding_table[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',$/;"	v	file:
+encrypt	src/examples/middleware/nvram.c	/^int encrypt(char* path)$/;"	f
+end	src/examples/Include/jsmn.h	/^	int end;$/;"	m	struct:__anon21
+err	src/examples/App/updateApp/wiseupdater.c	/^char err;$/;"	v
+errorlog	src/examples/App/bridgeApp/wisebridge.c	/^char hwtype[10],devtype[10],errorlog[10];$/;"	v
+expandKey	src/examples/OTA/aes.c	/^void expandKey(unsigned char *expandedKey, unsigned char *key)$/;"	f
+fdes	src/examples/system/com_inf.c	/^int fdes;$/;"	v
+fileL	src/examples/system/com_inf.c	/^unsigned int fileL = 0,total_crc = 0,total_crc1=0;$/;"	v
+fileOrig	src/examples/App/bridgeApp/wisebridge.c	/^char fileOrig[512];\/\/ = "wireless";$/;"	v
+fileRepl	src/examples/App/bridgeApp/wisebridge.c	/^char fileRepl[512];\/\/ = "temp_wireless";$/;"	v
+file_buf	src/examples/system/com_inf.c	/^static unsigned char file_buf[FILE_BUFF_SIZE];$/;"	v	file:
+filename	src/examples/App/updateApp/update.c	/^char filename[80];$/;"	v
+filename	src/examples/App/updateApp/wiseupdater.c	/^char filename[100];$/;"	v
+firmwarebuf	src/examples/App/bridgeApp/cloudinf.c	/^static char firmwarebuf[400];$/;"	v	file:
+formatForSed	src/examples/system/com_inf.c	/^void formatForSed(char* str)$/;"	f
+fp	src/examples/App/bridgeApp/wisebridge.c	/^FILE *fp ;$/;"	v
+fp1	src/examples/middleware/nvram.c	/^FILE *fp1,*fp2;$/;"	v
+fp2	src/examples/middleware/nvram.c	/^FILE *fp1,*fp2;$/;"	v
+fromchar	src/examples/system/network_interface.c	/^unsigned char fromchar(unsigned char c) {$/;"	f
+fw_info	src/examples/App/bridgeApp/cloudinf.c	/^static const char fw_info[] = "[{\\"deviceType\\":\\"101\\"}]";$/;"	v	file:
+fw_url_h1	src/examples/App/bridgeApp/cloudinf.c	/^static const char fw_url_h1[] = "deviceType:101";$/;"	v	file:
+fw_url_h2	src/examples/App/bridgeApp/cloudinf.c	/^static const char fw_url_h2[] = "version:";$/;"	v	file:
+fwinfo_response_parser	src/examples/App/bridgeApp/command_parser.c	/^int fwinfo_response_parser(unsigned char *buf, unsigned char* scratch,$/;"	f
+fwuinfo_request	src/examples/App/bridgeApp/cloudinf.c	/^char *fwuinfo_request(char *token, char *phone_id) {$/;"	f
+fwuri_request	src/examples/App/bridgeApp/cloudinf.c	/^char *fwuri_request(char *token, char *phone_id, char *version) {$/;"	f
+fwurl	src/examples/App/bridgeApp/wisebridge.c	/^char fwurl[128]; \/\/ used in commented code$/;"	v
+fwversion	src/examples/App/bridgeApp/wisebridge.c	/^char fwversion[20];$/;"	v
+fwversion	src/examples/App/updateApp/update.c	/^char fwversion[20];$/;"	v
+g_DataQ	src/examples/App/bridgeApp/scheduler.c	/^MQ_t g_DataQ[MAXQ],g_PostQ[MAXQ];$/;"	v
+g_PostQ	src/examples/App/bridgeApp/scheduler.c	/^MQ_t g_DataQ[MAXQ],g_PostQ[MAXQ];$/;"	v
+g_Tsock	src/examples/system/network_interface.c	/^int g_Tsock=0;$/;"	v
+g_VersionBuffer	src/examples/Version.h	/^char g_VersionBuffer[]="2.0.18";$/;"	v
+g_WiseVersion	src/examples/App/bridgeApp/wisebridge.c	/^Version_t g_WiseVersion;$/;"	v
+g_bIsNURFEnabled	src/examples/App/bridgeApp/beacon.c	/^unsigned char g_bIsNURFEnabled = 0x00;$/;"	v
+g_ctx	src/examples/system/network_interface.c	/^SSL_CTX *g_ctx=NULL;$/;"	v
+g_nServerPort	src/examples/App/bridgeApp/beacon.c	/^int g_nServerPort = 56038;$/;"	v
+g_sbio	src/examples/system/network_interface.c	/^BIO *g_sbio=NULL;\/\/,*g_bio=NULL;$/;"	v
+g_ssl	src/examples/system/network_interface.c	/^SSL *g_ssl=NULL;$/;"	v
+g_strServerAddress	src/examples/App/bridgeApp/beacon.c	/^char g_strServerAddress[16] = {0x00};$/;"	v
+galois_mul2	src/examples/OTA/aes.c	/^unsigned char galois_mul2(unsigned char value)$/;"	f
+get_guid	src/examples/system/com_inf.c	/^unsigned char get_guid[16];$/;"	v
+getmac	src/examples/App/bridgeApp/wisebridge.c	/^int getmac(char* intf, char* mac) {$/;"	f
+gfddata	src/examples/system/network_interface.c	/^int gfddata;$/;"	v
+gpio_config	src/examples/App/bridgeApp/wisebridge.c	/^void gpio_config()$/;"	f
+groupID	src/examples/App/bridgeApp/cloudinf.c	/^static const char groupID[]="\\",\\"groupId\\":\\"";$/;"	v	file:
+heart_beat_0	src/examples/App/bridgeApp/cloudinf.c	/^static const char heart_beat_0[] ="[";$/;"	v	file:
+heart_beat_1	src/examples/App/bridgeApp/cloudinf.c	/^static const char heart_beat_1[] ="{\\"timestamp\\":\\"";$/;"	v	file:
+heart_beat_2	src/examples/App/bridgeApp/cloudinf.c	/^static const char heart_beat_2[] ="\\",\\"type\\":\\"";$/;"	v	file:
+heart_beat_3	src/examples/App/bridgeApp/cloudinf.c	/^static const char heart_beat_3[] ="\\",\\"deviceMeshId\\":\\"";$/;"	v	file:
+heart_beat_end	src/examples/App/bridgeApp/cloudinf.c	/^static const char heart_beat_end[] ="\\"}";$/;"	v	file:
+heart_beat_end0	src/examples/App/bridgeApp/cloudinf.c	/^static const char heart_beat_end0[] ="]";$/;"	v	file:
+hp	src/examples/system/network_interface.c	/^		struct hostent *hp;$/;"	v	typeref:struct:hostent
+http_api_app	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_app[] = "app";$/;"	v	file:
+http_api_cmd	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_cmd[] ="bridgecommand\/1";$/;"	v	file:
+http_api_custom_sensor	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_custom_sensor[] = "customsensor";$/;"	v	file:
+http_api_fu	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_fu[] = "firmware\/1";$/;"	v	file:
+http_api_fw	src/examples/App/bridgeApp/cloudinf.c	/^char http_api_fw[51];$/;"	v
+http_api_listner_add	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_listner_add[] = "wide";$/;"	v	file:
+http_api_login	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_login[] = "login";$/;"	v	file:
+http_api_mfu	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_mfu[] = "firmware-update\/1";$/;"	v	file:
+http_api_msg	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_msg[] = "message\/1";$/;"	v	file:
+http_api_oper	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_oper[] = "operate\/1";$/;"	v	file:
+http_api_snew	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_snew[] = "sensor";$/;"	v	file:
+http_api_snew1	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_api_snew1[] = "sensor\/1";$/;"	v	file:
+http_clen	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_clen[] = "Content-Length: ";$/;"	v	file:
+http_curl	src/examples/App/bridgeApp/cloudinf.c	/^static char http_curl[300] = {0};$/;"	v	file:
+http_curl1	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_curl1[] = " HTTP\/1.1\\r\\n"$/;"	v	file:
+http_curl2	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_curl2[] ="Accept: application\/json\\r\\n"$/;"	v	file:
+http_customerId	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_customerId[] = "customerId:";$/;"	v	file:
+http_delim_1	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_delim_1[] = "\\r\\n";$/;"	v	file:
+http_delim_2	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_delim_2[] = "\\r\\n\\r\\n";$/;"	v	file:
+http_delim_3	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_delim_3[] = "\\r\\n\\r\\n\\r\\n";$/;"	v	file:
+http_delim_4	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_delim_4[] = "\\r\\n\\r\\n\\r\\n\\r\\n";$/;"	v	file:
+http_enabled	src/examples/App/bridgeApp/wisebridge.c	/^char http_enabled = 0;$/;"	v
+http_msgidreq	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_msgidreq[] = "messageID:";$/;"	v	file:
+http_organizeid	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_organizeid[] = "organizationId:";$/;"	v	file:
+http_phoneid	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_phoneid[] = "phoneId:";$/;"	v	file:
+http_req_get	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_req_get[] = "GET ";$/;"	v	file:
+http_req_post	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_req_post[] = "POST ";$/;"	v	file:
+http_req_put	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_req_put[] = "PUT ";$/;"	v	file:
+http_sock_init	src/examples/system/network_interface.c	/^int	http_sock_init() {$/;"	f
+http_time_msg	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_time_msg[] = "bridgetime\/1";$/;"	v	file:
+http_token	src/examples/App/bridgeApp/cloudinf.c	/^static const char http_token[] = "token:";$/;"	v	file:
+http_url	src/examples/App/bridgeApp/cloudinf.c	/^char http_url[128] = { 0x00 };	\/\/\/demo\/public\/";$/;"	v
+httpget	src/examples/system/network_interface.c	/^int httpget(struct sockaddr_in serveraddr, char *sendbuffer, char *recvbuffer,int recvsz) {$/;"	f
+httpsGet	src/examples/system/network_interface.c	/^int httpsGet(void *conn, char *Req, char *Resp, int recvsz)$/;"	f
+hw	src/examples/App/bridgeApp/wisebridge.c	/^BOARD_t hw;$/;"	v
+hwtype	src/examples/App/bridgeApp/wisebridge.c	/^char hwtype[10],devtype[10],errorlog[10];$/;"	v
+i	src/examples/App/bridgeApp/beacon.c	/^int i=0;$/;"	v
+i	src/examples/system/network_interface.c	/^		int i;$/;"	v
+if_check	src/examples/system/network_interface.c	/^int if_check() {$/;"	f
+img	src/examples/OTA/mesh_ota.c	/^FILE *img;$/;"	v
+info	src/examples/App/bridgeApp/wisebridge.c	/^struct sysinfo info;$/;"	v	typeref:struct:sysinfo
+init_Q	src/examples/App/bridgeApp/scheduler.c	/^void init_Q(){$/;"	f
+init_com	src/examples/system/com_inf.c	/^int init_com(int brate) {$/;"	f
+insert_loc	src/examples/system/com_inf.c	/^unsigned int insert_loc = 0;$/;"	v
+intoa	src/examples/App/bridgeApp/cloudinf.c	/^char* intoa(int val, char *str) {$/;"	f
+ip	src/examples/CSRFW/ImageToC.c	/^FILE *ip,*op;$/;"	v
+ip	src/examples/Include/network_interface.h	/^ char ip[64];$/;"	m	struct:__anon18
+jsmn_alloc_token	src/examples/middleware/jsmn.c	/^static jsmntok_t *jsmn_alloc_token(jsmn_parser *parser,$/;"	f	file:
+jsmn_fill_token	src/examples/middleware/jsmn.c	/^static void jsmn_fill_token(jsmntok_t *token, jsmntype_t type,$/;"	f	file:
+jsmn_init	src/examples/middleware/jsmn.c	/^void jsmn_init(jsmn_parser *parser) {$/;"	f
+jsmn_parse	src/examples/middleware/jsmn.c	/^jsmnerr_t jsmn_parse(jsmn_parser *parser, const char *js, size_t len,$/;"	f
+jsmn_parse_primitive	src/examples/middleware/jsmn.c	/^static jsmnerr_t jsmn_parse_primitive(jsmn_parser *parser, const char *js,$/;"	f	file:
+jsmn_parse_string	src/examples/middleware/jsmn.c	/^static jsmnerr_t jsmn_parse_string(jsmn_parser *parser, const char *js,$/;"	f	file:
+jsmn_parser	src/examples/Include/jsmn.h	/^} jsmn_parser;$/;"	t	typeref:struct:__anon22
+jsmnerr_t	src/examples/Include/jsmn.h	/^} jsmnerr_t;$/;"	t	typeref:enum:__anon20
+jsmntok_t	src/examples/Include/jsmn.h	/^} jsmntok_t;$/;"	t	typeref:struct:__anon21
+jsmntype_t	src/examples/Include/jsmn.h	/^} jsmntype_t;$/;"	t	typeref:enum:__anon19
+jsonBuff	src/examples/App/bridgeApp/scheduler.c	/^char jsonBuff[MAXPOSTITEMS][2000];$/;"	v
+jsonParse	src/examples/middleware/json.c	/^int jsonParse(char* jsonStr, char* jsonTkn,char *token) {$/;"	f
+jsonParseObjects	src/examples/middleware/json.c	/^char** jsonParseObjects(char* jsonStr, char* arrayName, int* count)$/;"	f
+jsonbuf	src/examples/App/bridgeApp/cloudinf.c	/^char jsonbuf[400];$/;"	v
+jsoneq	src/examples/middleware/json.c	/^static int jsoneq(const char *json, jsmntok_t *tok, const char *s) {$/;"	f	file:
+k	src/examples/system/com_inf.c	/^char k;$/;"	v
+keys	src/examples/App/bridgeApp/wisebridge.c	/^int *keys;$/;"	v
+keys	src/examples/system/network_interface.c	/^sslKeys_t *keys;$/;"	v
+lastUpdatedSlot	src/examples/Include/beacon.h	/^    signed int lastUpdatedSlot;$/;"	m	struct:__anon8
+ledHandler	src/examples/App/bridgeApp/wisebridge.c	/^void* ledHandler(void* arg)$/;"	f
+led_dir	src/examples/App/bridgeApp/wisebridge.c	/^char led_dir[50];$/;"	v
+led_export	src/examples/App/bridgeApp/wisebridge.c	/^char led_export[50];$/;"	v
+led_value	src/examples/App/bridgeApp/wisebridge.c	/^char led_value[50];$/;"	v
+listen_sock_fd	src/examples/App/bridgeApp/wisebridge.c	/^int listen_sock_fd;\/\/,mat_sock_fd; unused$/;"	v
+listenerArrray	src/examples/App/bridgeApp/beacon.c	/^ListenerData listenerArrray[NO_OF_LISTENERS];$/;"	v
+listenerID	src/examples/Include/beacon.h	/^	unsigned char listenerID[LISTENER_ID_SIZE];$/;"	m	struct:__anon9
+listenerID	src/examples/Include/beacon.h	/^    short int listenerID;$/;"	m	struct:__anon10
+listenerID	src/examples/Include/beacon.h	/^    short int listenerID;$/;"	m	struct:__anon8
+listneradd	src/examples/App/bridgeApp/cloudinf.c	/^static const char listneradd[]="{\\"deviceSequenceNumber\\":\\"1\\",\\"status\\":\\"1\\",\\"hwVersion\\":\\"1.0.0\\",\\"swVersion\\":\\"1.0.0\\",\\"fmVersion\\":\\"1.0.0\\",\\"conOrNot\\":\\"1\\",\\"feedback\\":\\"1\\",\\"deviceName\\":\\"BridgeAsListener\\",\\"deviceType\\":\\"11001\\",\\"mobileDeviceId\\":\\"\\",\\"pairingInfo\\":\\"\\",\\"isBridge\\":\\"1\\",\\"deviceUuid\\":\\"";$/;"	v	file:
+local_version	src/examples/App/updateApp/update.c	/^Version_t local_version,remote_version;$/;"	v
+lock	src/examples/OTA/mesh_ota.c	/^pthread_mutex_t lock;$/;"	v
+logId	src/examples/App/updateApp/update.c	/^char logId[7];$/;"	v
+log_print	src/examples/App/bridgeApp/wisebridge.c	/^void log_print(char* filename, int line, char *fmt,...)$/;"	f
+log_printN	src/examples/App/bridgeApp/wisebridge.c	/^void log_printN(char *data)$/;"	f
+logbuff	src/examples/App/bridgeApp/wisebridge.c	/^char logbuff[RCVBUFFLEN*6];$/;"	v
+logbuffB	src/examples/App/bridgeApp/beacon.c	/^char logbuffB[RCVBUFFLEN*6];$/;"	v
+logbuffC	src/examples/system/com_inf.c	/^char logbuffC[RCVBUFFLEN*6];$/;"	v
+logbuffN	src/examples/system/network_interface.c	/^char logbuffN[RCVBUFFLEN*6];$/;"	v
+login	src/examples/App/bridgeApp/wisebridge.c	/^int login(int http_err_flag)$/;"	f
+loginFail	src/examples/system/network_interface.c	/^char loginFail = 0;$/;"	v
+login_req_1	src/examples/App/bridgeApp/cloudinf.c	/^static const char login_req_1[] = "{\\"userName\\":\\"";$/;"	v	file:
+login_req_2	src/examples/App/bridgeApp/cloudinf.c	/^static const char login_req_2[] = "\\",\\"userPassword\\":\\"";$/;"	v	file:
+login_req_3	src/examples/App/bridgeApp/wisebridge.c	/^char login_req_3[45];\/\/\/\/\/\/\/\/\/cloudinf.c$/;"	v
+login_req_4	src/examples/App/bridgeApp/cloudinf.c	/^static const char login_req_4[] = "\\"}\\r\\n\\r\\n";$/;"	v	file:
+login_request	src/examples/App/bridgeApp/cloudinf.c	/^char *login_request(char *username, char *password, char* appid) {$/;"	f
+login_response_parser	src/examples/App/bridgeApp/command_parser.c	/^int login_response_parser(unsigned char *buf, unsigned char* scratch,$/;"	f
+loginrequestbuff	src/examples/App/bridgeApp/wisebridge.c	/^char* loginrequestbuff;$/;"	v
+mac_add	src/examples/App/bridgeApp/wisebridge.c	/^char mac_add[33];$/;"	v
+mac_add1	src/examples/system/com_inf.c	/^char mac_add1[33],EthWifi = 'S';$/;"	v
+main	src/examples/App/bridgeApp/wisebridge.c	/^int main(int argc,char *argv[]) $/;"	f
+main	src/examples/App/updateApp/wiseupdater.c	/^int main(int argc,char*argv[]){$/;"	f
+main	src/examples/CSRFW/ImageToC.c	/^void main(){$/;"	f
+mbuf	src/examples/App/bridgeApp/cloudinf.c	/^char mbuf[300];$/;"	v
+mcom_str	src/examples/Include/com_inf.h	/^} mcom_str;$/;"	t	typeref:struct:__anon14
+memcmpn	src/examples/App/bridgeApp/beacon.c	/^int memcmpn(unsigned char* buffer1, unsigned char* buffer2, int size)$/;"	f
+memcpy_bigendian	src/examples/App/bridgeApp/beacon.c	/^void memcpy_bigendian(void* dst, void* src, int size) {$/;"	f
+mesg	src/examples/App/bridgeApp/cloudinf.c	/^char mesg[40];$/;"	v
+mesg	src/examples/Include/command_parser.h	/^char mesg[40];$/;"	m	struct:opmesg
+mesgid	src/examples/App/bridgeApp/wisebridge.c	/^char mesgid[10];$/;"	v
+mesgid	src/examples/Include/command_parser.h	/^char mesgid[10];$/;"	m	struct:opmesg
+mesgid	src/examples/system/network_interface.c	/^		char mesgid[8];$/;"	m	struct:__anon1	file:
+mesgreqbuf	src/examples/App/bridgeApp/cloudinf.c	/^char mesgreqbuf[360];$/;"	v
+meshota_status	src/examples/OTA/mesh_ota.c	/^int meshota_status;$/;"	v
+meshotastatus_post	src/examples/App/bridgeApp/cloudinf.c	/^char *meshotastatus_post(int status) {$/;"	f
+message_response_parser	src/examples/App/bridgeApp/command_parser.c	/^int message_response_parser(unsigned char *buf, unsigned char* scratch,$/;"	f
+mod_table	src/examples/middleware/base64.c	/^static int mod_table[] = {0, 2, 1};$/;"	v	file:
+mode_switch	src/examples/App/bridgeApp/wisebridge.c	/^void mode_switch(char *mode_value)$/;"	f
+motion	src/examples/Include/beacon.h	/^	char motion;$/;"	m	struct:__anon7
+msg	src/examples/App/bridgeApp/scheduler.c	/^struct msgbuff1 msg;$/;"	v	typeref:struct:msgbuff1
+msgbuff1	src/examples/Include/com_inf.h	/^struct msgbuff1 {$/;"	s
+msgsz	src/examples/Include/command_parser.h	/^int  msgsz;$/;"	m	struct:opmesg
+mstr	src/examples/Include/com_inf.h	/^		mcom_str mstr;$/;"	m	struct:msgbuff1
+mtype	src/examples/Include/beacon.h	/^	long mtype;$/;"	m	struct:__anon13
+mtype	src/examples/Include/com_inf.h	/^		long mtype;$/;"	m	struct:msgbuff1
+network_state	src/examples/Include/network_interface.h	/^} network_state;$/;"	t	typeref:enum:state
+network_task	src/examples/system/network_interface.c	/^void network_task () {$/;"	f
+nt_state	src/examples/system/network_interface.c	/^network_state nt_state;$/;"	v
+nurf_dev	src/examples/system/com_inf.c	/^char nurf_dev[]="NURF";$/;"	v
+nvram_bufset	src/examples/middleware/nvram.c	/^int nvram_bufset(int index, const char *token, char *value)$/;"	f
+nvram_commit	src/examples/middleware/nvram.c	/^int nvram_commit(int i)$/;"	f
+nvram_get	src/examples/middleware/nvram.c	/^char *nvram_get(int id, const char *token)$/;"	f
+nwid	src/examples/App/bridgeApp/wisebridge.c	/^short int  nwid;$/;"	v
+nwkey	src/examples/App/bridgeApp/wisebridge.c	/^char nwkey[30];$/;"	v
+offTime	src/examples/App/bridgeApp/wisebridge.c	/^int onTime,offTime;$/;"	v
+olid	src/examples/Include/command_parser.h	/^char olid[10];$/;"	m	struct:opmesg
+onTime	src/examples/App/bridgeApp/wisebridge.c	/^int onTime,offTime;$/;"	v
+op	src/examples/CSRFW/ImageToC.c	/^FILE *ip,*op;$/;"	v
+op	src/examples/Include/com_inf.h	/^	char op;$/;"	m	struct:__anon14
+oper_mesg	src/examples/App/bridgeApp/wisebridge.c	/^struct opmesg oper_mesg[4];$/;"	v	typeref:struct:opmesg
+oper_status_1	src/examples/App/bridgeApp/cloudinf.c	/^static const char oper_status_1[] = "\\",\\"deviceMeshId\\":\\"";$/;"	v	file:
+oper_status_2	src/examples/App/bridgeApp/cloudinf.c	/^static const char oper_status_2[] = "{\\"encData\\":\\"";$/;"	v	file:
+oper_status_3	src/examples/App/bridgeApp/cloudinf.c	/^static const char oper_status_3[] = "\\",\\"phoneId\\":\\"";$/;"	v	file:
+opmesg	src/examples/Include/command_parser.h	/^struct opmesg{$/;"	s
+opstatus_post	src/examples/App/bridgeApp/cloudinf.c	/^char *opstatus_post(char *token,char* json,char *enc_data, char *phone_id) {$/;"	f
+orgId	src/examples/App/bridgeApp/cloudinf.c	/^char orgId[10];$/;"	v
+organiz_id	src/examples/App/bridgeApp/cloudinf.c	/^char organiz_id[10] = "1" ;$/;"	v
+ota_logid	src/examples/App/bridgeApp/cloudinf.c	/^static const char ota_logid[] = "{\\"logId\\":\\"";$/;"	v	file:
+ota_received_flag	src/examples/OTA/mesh_ota.c	/^int ota_received_flag = 0, deviceota_inprogress = 0, start_deviceota = 0;$/;"	v
+ota_status	src/examples/App/bridgeApp/cloudinf.c	/^static const char ota_status[] = "\\",\\"status\\":\\"";$/;"	v	file:
+otadevicetype	src/examples/App/bridgeApp/wisebridge.c	/^void otadevicetype()$/;"	f
+otareq	src/examples/system/network_interface.c	/^char otareq[23]={0};$/;"	v
+packet_encrypt	src/examples/OTA/aes.c	/^void packet_encrypt(unsigned char* data, unsigned char* aes_key)$/;"	f
+parent	src/examples/Include/jsmn.h	/^	int parent;$/;"	m	struct:__anon21
+parse_image_file	src/examples/OTA/mesh_ota.c	/^int parse_image_file( void ){$/;"	f
+phoneid	src/examples/App/bridgeApp/wisebridge.c	/^char phoneid[10];$/;"	v
+portno	src/examples/App/bridgeApp/wisebridge.c	/^char portno[4],comport[5];$/;"	v
+pos	src/examples/Include/jsmn.h	/^	unsigned int pos; \/* offset in the JSON string *\/$/;"	m	struct:__anon22
+post_com_mesg	src/examples/system/com_inf.c	/^void post_com_mesg(char optype,unsigned  char *data, int sz) {$/;"	f
+post_wifi_mesg	src/examples/App/bridgeApp/scheduler.c	/^void post_wifi_mesg(unsigned char type, unsigned char *data, int sz){$/;"	f
+print_time	src/examples/App/bridgeApp/wisebridge.c	/^char* print_time()$/;"	f
+proceed_flag	src/examples/system/network_interface.c	/^int proceed_flag;$/;"	v
+read_guid	src/examples/App/bridgeApp/wisebridge.c	/^unsigned char csrkey[31],read_guid[31];$/;"	v
+recvbuf	src/examples/App/bridgeApp/beacon.c	/^char recvbuf[RCVBUFFLEN];$/;"	v
+recvbuf	src/examples/App/bridgeApp/wisebridge.c	/^char recvbuf[RCVBUFFLEN];$/;"	v
+remote_version	src/examples/App/updateApp/update.c	/^Version_t local_version,remote_version;$/;"	v
+removeBackSlash	src/examples/App/bridgeApp/command_parser.c	/^void removeBackSlash(char* buf)$/;"	f
+replace	src/examples/App/bridgeApp/wisebridge.c	/^int replace(const char* path,char* find,char* replace) $/;"	f
+reqid	src/examples/system/network_interface.c	/^char reqid[6]={0};$/;"	v
+requestbuf	src/examples/App/bridgeApp/cloudinf.c	/^char requestbuf[SIZE_OF_REQBUFFER];$/;"	v
+response	src/examples/App/bridgeApp/cloudinf.c	/^char response[400] = { 0 };$/;"	v
+ret	src/examples/system/network_interface.c	/^		int ret=0;	$/;"	v
+rsbox	src/examples/OTA/aes.c	/^const unsigned char rsbox[256] =$/;"	v
+rssi	src/examples/Include/beacon.h	/^	char rssi;$/;"	m	struct:__anon7
+rssi	src/examples/Include/beacon.h	/^	signed char rssi;$/;"	m	struct:__anon9
+sample	src/examples/App/bridgeApp/cloudinf.c	/^void sample()$/;"	f
+sbox	src/examples/OTA/aes.c	/^const unsigned char sbox[256] =   { $/;"	v
+scratchbuf	src/examples/App/bridgeApp/wisebridge.c	/^char scratchbuf[RCVBUFFLEN];$/;"	v
+sem_version	src/examples/App/bridgeApp/wisebridge.c	/^sem_t semnt,semnt_soc_1,semnt_soc_2,sem_version;$/;"	v
+semnt	src/examples/App/bridgeApp/wisebridge.c	/^sem_t semnt,semnt_soc_1,semnt_soc_2,sem_version;$/;"	v
+semnt_soc_1	src/examples/App/bridgeApp/wisebridge.c	/^sem_t semnt,semnt_soc_1,semnt_soc_2,sem_version;$/;"	v
+semnt_soc_2	src/examples/App/bridgeApp/wisebridge.c	/^sem_t semnt,semnt_soc_1,semnt_soc_2,sem_version;$/;"	v
+sensor_data	src/examples/App/bridgeApp/scheduler.c	/^unsigned char sensor_data[30];$/;"	v
+sensor_id	src/examples/App/bridgeApp/scheduler.c	/^unsigned char sensor_id[5];$/;"	v
+sensor_post	src/examples/App/bridgeApp/cloudinf.c	/^char *sensor_post(char *token, char *jsonbuf, char *sensor_data,$/;"	f
+sensor_resp_1	src/examples/App/bridgeApp/cloudinf.c	/^static const char sensor_resp_1[] = "{\\"trigger\\":\\"";$/;"	v	file:
+sensor_resp_2	src/examples/App/bridgeApp/cloudinf.c	/^static const char sensor_resp_2[] = "\\",\\"sensorMeshId\\":\\"";$/;"	v	file:
+seqNo	src/examples/Include/beacon.h	/^    unsigned short seqNo;$/;"	m	struct:__anon8
+seqNo	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+seqnsNo	src/examples/Include/beacon.h	/^	unsigned short seqnsNo;$/;"	m	struct:__anon7
+sequenceNum	src/examples/Include/beacon.h	/^	unsigned short sequenceNum;$/;"	m	struct:__anon9
+serverAddr	src/examples/App/bridgeApp/beacon.c	/^struct sockaddr_in serverAddr;$/;"	v	typeref:struct:sockaddr_in
+serverBaseTimeStamp	src/examples/App/bridgeApp/beacon.c	/^int serverBaseTimeStamp = 0;$/;"	v
+size	src/examples/Include/jsmn.h	/^	int size;$/;"	m	struct:__anon21
+sndbuf	src/examples/App/bridgeApp/scheduler.c	/^char sndbuf[RCVBUFFLEN];$/;"	v
+sock	src/examples/Include/network_interface.h	/^	int sock;$/;"	m	struct:__anon18
+sockMesg	src/examples/system/network_interface.c	/^} sockMesg;$/;"	t	typeref:struct:__anon1	file:
+sock_init	src/examples/system/network_interface.c	/^int sock_init(int *sock, char *server_ip) {$/;"	f
+sock_list_task	src/examples/system/network_interface.c	/^void sock_list_task(void* param) {$/;"	f
+sock_param	src/examples/Include/network_interface.h	/^} sock_param;$/;"	t	typeref:struct:__anon18
+sock_set	src/examples/system/network_interface.c	/^		fd_set  sock_set;$/;"	v
+socket_callback	src/examples/App/bridgeApp/wisebridge.c	/^int  socket_callback(char type) {$/;"	f
+socket_list_param	src/examples/App/bridgeApp/wisebridge.c	/^sock_param socket_list_param = { 0 };$/;"	v
+sockreq	src/examples/system/network_interface.c	/^char sockreq[200];$/;"	v
+sslConn_t	src/examples/includes.h	/^typedef int sslConn_t;$/;"	t
+sslKeys_t	src/examples/includes.h	/^typedef int sslKeys_t;$/;"	t
+start	src/examples/Include/jsmn.h	/^	int start;$/;"	m	struct:__anon21
+startFromCSR	src/examples/system/com_inf.c	/^volatile char startFromCSR;$/;"	v
+start_deviceota	src/examples/OTA/mesh_ota.c	/^int ota_received_flag = 0, deviceota_inprogress = 0, start_deviceota = 0;$/;"	v
+start_thread	src/examples/App/bridgeApp/wisebridge.c	/^void start_thread()$/;"	f
+state	src/examples/Include/network_interface.h	/^typedef enum state {$/;"	g
+stopFlag	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+stop_thread	src/examples/App/bridgeApp/wisebridge.c	/^void stop_thread()$/;"	f
+str	src/examples/middleware/nvram.c	/^char str[512],ch1;$/;"	v
+suborgId	src/examples/App/bridgeApp/wisebridge.c	/^char suborgId[10];$/;"	v
+sz	src/examples/Include/com_inf.h	/^	int sz;$/;"	m	struct:__anon14
+tamperState	src/examples/Include/beacon.h	/^	unsigned short tamperState;$/;"	m	struct:__anon7
+tamperState	src/examples/Include/beacon.h	/^	unsigned short tamperState;$/;"	m	struct:__anon9
+tamperState	src/examples/Include/beacon.h	/^    unsigned short tamperState;$/;"	m	struct:__anon8
+tempCompensation	src/examples/Include/beacon.h	/^	unsigned char tempCompensation;$/;"	m	struct:__anon9
+temperature	src/examples/Include/beacon.h	/^	unsigned short temperature;$/;"	m	struct:__anon9
+temperature	src/examples/Include/beacon.h	/^    	unsigned short temperature;$/;"	m	struct:__anon7
+test_dev_id	src/examples/App/updateApp/update.c	/^unsigned short test_dev_id;$/;"	v
+text2find	src/examples/App/bridgeApp/wisebridge.c	/^char text2find[80]; \/\/= "ssid BRIDGE_EMBEDDED";$/;"	v
+text2repl	src/examples/App/bridgeApp/wisebridge.c	/^char text2repl[80]; \/\/= "ssid BRIDGE'EMBEDDED";$/;"	v
+timebuf	src/examples/App/bridgeApp/wisebridge.c	/^char timebuf[100];$/;"	v
+timestamp	src/examples/Include/beacon.h	/^	int timestamp;$/;"	m	struct:__anon7
+timestamp	src/examples/Include/beacon.h	/^	int timestamp;$/;"	m	struct:__anon9
+tmpLen	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+tmpseqNo	src/examples/system/com_inf.c	/^static unsigned short int seqNo = 0 ,tmpseqNo = 0, stopFlag = 0, Len = 0,tmpLen = 0,data_status = 0,crc = 0,crc_1= 0;$/;"	v	file:
+token	src/examples/App/bridgeApp/wisebridge.c	/^char token[100];$/;"	v
+token	src/examples/Include/network_interface.h	/^	char token[100];$/;"	m	struct:__anon18
+toknext	src/examples/Include/jsmn.h	/^	unsigned int toknext; \/* next token to allocate *\/$/;"	m	struct:__anon22
+toksuper	src/examples/Include/jsmn.h	/^	int toksuper; \/* superior token node, e.g parent object or array *\/$/;"	m	struct:__anon22
+total_crc	src/examples/system/com_inf.c	/^unsigned int fileL = 0,total_crc = 0,total_crc1=0;$/;"	v
+total_crc1	src/examples/system/com_inf.c	/^unsigned int fileL = 0,total_crc = 0,total_crc1=0;$/;"	v
+tv	src/examples/system/network_interface.c	/^		struct timeval tv;$/;"	v	typeref:struct:timeval
+type	src/examples/Include/beacon.h	/^	BeaconHTTPRequestType type;$/;"	m	struct:__anon12
+type	src/examples/Include/beacon.h	/^    char type; \/\/listener or bridge$/;"	m	struct:__anon10
+type	src/examples/Include/jsmn.h	/^	jsmntype_t type;$/;"	m	struct:__anon21
+uart_file_des	src/examples/App/bridgeApp/wisebridge.c	/^int uart_file_des;$/;"	v
+uint32	src/examples/includes.h	/^typedef int uint32;$/;"	t
+updateFlag	src/examples/system/com_inf.c	/^int updateFlag = 0;$/;"	v
+url	src/examples/App/updateApp/update.c	/^char url[150];$/;"	v
+write_buf	src/examples/OTA/mesh_ota.c	/^unsigned char write_buf[PACKET_SIZE];$/;"	v
+write_buf_parser	src/examples/OTA/mesh_ota.c	/^void write_buf_parser(unsigned char packet_format, unsigned short int seq, unsigned short int nw_id, unsigned char *app_data) {$/;"	f
+write_to_csr	src/examples/system/com_inf.c	/^void write_to_csr(mcom_str* mstr) {$/;"	f

@@ -1,0 +1,148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	Makefile	/^A   = .a$/;"	m
+BRIDGE_EXE	Makefile	/^BRIDGE_EXE = kios$/;"	m
+BRIDGE_OBJS	Makefile	/^BRIDGE_OBJS = kios.o lcd.o nvram.o gps.o kb.o sslSocket.o https.o$/;"	m
+CFLAGS	Makefile	/^CFLAGS  = $(DFLAGS) -DLINUX$/;"	m
+CONFIG_FILE_PATH	Include/nvram.h	3;"	d
+DATA	lcd.c	/^void DATA(char data){$/;"	f
+DATEPOS	Include/gps.h	5;"	d
+DFLAGS	Makefile	/^DFLAGS	= -O3$/;"	m
+DFLAGS	Makefile	/^DFLAGS  = -g -Wall -DDEBUG$/;"	m
+E	Makefile	/^E	=$/;"	m
+EN0	Include/lcd.h	6;"	d
+EN1	Include/lcd.h	7;"	d
+GPSBAUDRATE	Include/gps.h	4;"	d
+GPSMODEMDEVICE	Include/gps.h	3;"	d
+GPS_Fdes	gps.c	/^int GPS_Fdes;$/;"	v
+GPS_Reader_Task	gps.c	/^void* GPS_Reader_Task(void *s){$/;"	f
+GPS_Reader_thread	gps.c	/^pthread_t GPS_Reader_thread;$/;"	v
+HTTPS_IP	kios.c	/^char HTTPS_IP[14];$/;"	v
+HTTPS_PORT	https.c	3;"	d	file:
+HTTP_PORT	https.c	2;"	d	file:
+HTTP_PORT	kios.c	13;"	d	file:
+INVALID_SOCKET	Include/sslSocket.h	71;"	d
+INVALID_SOCKET	Include/sslSocket.h	89;"	d
+Id	kios.c	/^char Id[7];$/;"	v
+KBMODEMDEVICE	Include/kb.h	3;"	d
+KB_Fdes	kb.c	/^int KB_Fdes;$/;"	v
+KB_Task	kb.c	/^void* KB_Task(void *s){$/;"	f
+KB_thread	kb.c	/^pthread_t KB_thread;$/;"	v
+LDFLAGS	Makefile	/^LDFLAGS = -lc$/;"	m
+LIBRARIES	Makefile	/^LIBRARIES	= ..\/src\/libmatrixssl$(SO) $/;"	m
+LocLock	gps.c	/^pthread_mutex_t LocLock;$/;"	v
+Location	gps.c	/^char Location[70];$/;"	v
+MAKEWORD	Include/sslSocket.h	68;"	d
+MAKEWORD	Include/sslSocket.h	86;"	d
+MSG_NOSIGNAL	Include/sslSocket.h	48;"	d
+MSG_NOSIGNAL	Include/sslSocket.h	58;"	d
+MSG_NOSIGNAL	Include/sslSocket.h	90;"	d
+Num	kb.c	/^char Num[13];$/;"	v
+O	Makefile	/^O 	= .o$/;"	m
+RCVBUFFLEN	kios.c	14;"	d	file:
+RS0	Include/lcd.h	4;"	d
+RS1	Include/lcd.h	5;"	d
+Reconnect	kios.c	/^	sslConn_t* Reconnect() {$/;"	f
+Request	kios.c	/^static char Request[600] = "POST \/demo\/public\/req HTTP\/1.1\\r\\n"$/;"	v	file:
+SO	Makefile	/^SO  = .so$/;"	m
+SOCKET	Include/sslSocket.h	/^	typedef int	SOCKET;$/;"	t
+SOCKET_ERROR	Include/sslSocket.h	64;"	d
+SOCKET_ERROR	Include/sslSocket.h	82;"	d
+SSLSOCKET_CLOSE_NOTIFY	Include/sslSocket.h	106;"	d
+SSLSOCKET_EOF	Include/sslSocket.h	105;"	d
+STATICS	Makefile	/^STATICS		= ..\/src\/libmatrixsslsta$(A) -lpthread$/;"	m
+SendDataToTheServer	kios.c	/^void SendDataToTheServer(char *Num){$/;"	f
+Sendbuf	kios.c	/^char Sendbuf[RCVBUFFLEN];$/;"	v
+ServerIp	kios.c	/^char ServerIp[15];$/;"	v
+ServerPort	kios.c	/^char ServerPort[7];$/;"	v
+TEMP_FILE_PATH	Include/nvram.h	4;"	d
+UART_BUFFER_SIZE	gps.c	13;"	d	file:
+UART_BUFFER_SIZE	kb.c	13;"	d	file:
+WOULD_BLOCK	Include/sslSocket.h	49;"	d
+WOULD_BLOCK	Include/sslSocket.h	66;"	d
+WOULD_BLOCK	Include/sslSocket.h	84;"	d
+WSACleanup	Include/sslSocket.h	70;"	d
+WSACleanup	Include/sslSocket.h	88;"	d
+WSADATA	Include/sslSocket.h	/^	typedef int	WSADATA;$/;"	t
+WSAStartup	Include/sslSocket.h	69;"	d
+WSAStartup	Include/sslSocket.h	87;"	d
+YearToFileTime	sslSocket.c	/^static FILETIME YearToFileTime(WORD wYear)$/;"	f	file:
+_NVRAM_H_	Include/nvram.h	2;"	d
+__GPS_H	Include/gps.h	2;"	d
+__HTTP_	Include/http.h	2;"	d
+__KB_H	Include/kb.h	2;"	d
+__KIOS_H	Include/kios.h	2;"	d
+__LCD_H_	Include/lcd.h	2;"	d
+_h_SSLSOCKET	Include/sslSocket.h	33;"	d
+addrKA	kios.c	/^struct in_addr	addrKA;$/;"	v	typeref:struct:in_addr
+breakpoint	sslSocket.c	/^void breakpoint()$/;"	f
+buf	nvram.c	/^char buf[512];$/;"	v
+certChecker	https.c	/^static int certChecker(sslCertInfo_t *cert, void *arg) {$/;"	f	file:
+closesocket	Include/sslSocket.h	67;"	d
+closesocket	Include/sslSocket.h	85;"	d
+cloud_inf_init	https.c	/^int cloud_inf_init( char *server_ip, struct sockaddr_in *serveraddr,sslKeys_t **keys) {$/;"	f
+cloudaddr	kios.c	/^struct sockaddr_in cloudaddr;$/;"	v	typeref:struct:sockaddr_in
+conn	kios.c	/^sslConn_t *conn; \/\/Temp global$/;"	v
+connectServer	https.c	/^int connectServer(char *server_ip, sslKeys_t *keys, sslConn_t **conn) {$/;"	f
+delay_ms	Include/lcd.h	8;"	d
+fcntl	Include/sslSocket.h	47;"	d
+fcntl	Include/sslSocket.h	81;"	d
+fd	Include/sslSocket.h	/^	SOCKET				fd;$/;"	m	struct:__anon1
+fromchar	https.c	/^unsigned char fromchar(unsigned char c) {$/;"	f
+g_GpsDataBuf	gps.c	/^char g_GpsDataBuf[500];$/;"	v
+g_KBBuf	kb.c	/^char g_KBBuf[4];$/;"	v
+g_Pass	kios.c	/^char g_Pass[20];$/;"	v
+getSocketError	Include/sslSocket.h	50;"	d
+getSocketError	Include/sslSocket.h	65;"	d
+getSocketError	Include/sslSocket.h	83;"	d
+http_sock_init	kios.c	/^int	http_sock_init() {$/;"	f
+httpget	kios.c	/^int httpget(struct sockaddr_in serveraddr, char *sendbuffer, char *recvbuffer,int recvsz) {$/;"	f
+httpsGet	https.c	/^int httpsGet(sslConn_t *conn, char *sendbuffer, char *recvbuffer, int recvsz) {$/;"	f
+if_check	kios.c	/^int if_check() {$/;"	f
+inbuf	Include/sslSocket.h	/^	sslBuf_t			inbuf;$/;"	m	struct:__anon1
+initHttp	kios.c	/^int  initHttp(){$/;"	f
+init_GPS	gps.c	/^void init_GPS(){$/;"	f
+init_Keypad	kb.c	/^void init_Keypad(){$/;"	f
+insock	Include/sslSocket.h	/^	sslBuf_t			insock;$/;"	m	struct:__anon1
+json	kios.c	/^char json[300];$/;"	v
+keys	kios.c	/^sslKeys_t *keys;$/;"	v
+lat	gps.c	/^char lat[20];$/;"	v
+lcd_init	lcd.c	/^void lcd_init(){$/;"	f
+lcd_putc	lcd.c	/^void lcd_putc(char x){$/;"	f
+lcd_puts	lcd.c	/^void lcd_puts( char* s ){$/;"	f
+lon	gps.c	/^char lon[20];$/;"	v
+main	kios.c	/^int  main(){$/;"	f
+min	Include/sslSocket.h	99;"	d
+nvram_bufset	nvram.c	/^int nvram_bufset(int index, const char *token, const char *value)$/;"	f
+nvram_get	nvram.c	/^char *nvram_get(int id, const char *token)$/;"	f
+outBufferCount	Include/sslSocket.h	/^	int					outBufferCount;$/;"	m	struct:__anon1
+outsock	Include/sslSocket.h	/^	sslBuf_t			outsock;$/;"	m	struct:__anon1
+parseCmdLineArgs	sslSocket.c	/^void parseCmdLineArgs(char *args, int *pargc, char ***pargv)$/;"	f
+psSocketRead	sslSocket.c	/^int psSocketRead(SOCKET sock, sslBuf_t **out, int *status)$/;"	f
+psSocketWrite	sslSocket.c	/^int psSocketWrite(SOCKET sock, sslBuf_t *out)$/;"	f
+recvbuf	kios.c	/^char recvbuf[RCVBUFFLEN];$/;"	v
+sendCommand	lcd.c	/^void sendCommand(char x){$/;"	f
+setSocketBlock	sslSocket.c	/^void setSocketBlock(SOCKET sock)$/;"	f
+setSocketNodelay	sslSocket.c	/^void setSocketNodelay(SOCKET sock)$/;"	f
+setSocketNonblock	sslSocket.c	/^void setSocketNonblock(SOCKET sock)$/;"	f
+socketAccept	sslSocket.c	/^SOCKET socketAccept(SOCKET listenfd, int *err)$/;"	f
+socketAssert	Include/sslSocket.h	96;"	d
+socketConnect	sslSocket.c	/^SOCKET socketConnect(char *ip, short port, int *err)$/;"	f
+socketListen	sslSocket.c	/^SOCKET socketListen(short port, int *err)$/;"	f
+socketShutdown	sslSocket.c	/^void socketShutdown(SOCKET sock)$/;"	f
+ssl	Include/sslSocket.h	/^	ssl_t				*ssl;$/;"	m	struct:__anon1
+sslAccept	sslSocket.c	/^int sslAccept(sslConn_t **cpp, SOCKET fd, sslKeys_t *keys,$/;"	f
+sslConn_t	Include/sslSocket.h	/^} sslConn_t;$/;"	t	typeref:struct:__anon1
+sslConnect	sslSocket.c	/^int sslConnect(sslConn_t **cpp, SOCKET fd, sslKeys_t *keys, $/;"	f
+sslDoHandshake	sslSocket.c	/^sslConn_t *sslDoHandshake(sslConn_t *conn, short cipherSuite)$/;"	f
+sslFreeConnection	sslSocket.c	/^void sslFreeConnection(sslConn_t **cpp)$/;"	f
+sslFreeConnectionBuffers	sslSocket.c	/^void sslFreeConnectionBuffers(sslConn_t **cpp)$/;"	f
+sslRead	sslSocket.c	/^int sslRead(sslConn_t *cp, char *buf, int len, int *status)$/;"	f
+sslRehandshake	sslSocket.c	/^void sslRehandshake(sslConn_t *cp)$/;"	f
+sslWrite	sslSocket.c	/^int sslWrite(sslConn_t *cp, char *buf, int len, int *status)$/;"	f
+sslWriteClosureAlert	sslSocket.c	/^void sslWriteClosureAlert(sslConn_t *cp)$/;"	f
+time	sslSocket.c	/^time_t time() {$/;"	f
